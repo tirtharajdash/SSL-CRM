@@ -1,2 +1,2 @@
-# PretrainedCRM
-Pre-trained Compositional Relational Machine (Pre-trained CRM)
+## Self-Supervised Learning of CRM
+Constructing universal representation using self-supervised learning of Compositional Relational Machine (CRM)

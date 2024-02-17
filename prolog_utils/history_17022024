@@ -1,0 +1,500 @@
+ 1592  ls
+ 1593  cd data/
+ 1594  ls
+ 1595  cd ..
+ 1596  ls
+ 1597  cd ..
+ 1598  ls
+ 1599  du -sh *.tar.gz
+ 1600  cd crm/
+ 1601  ls
+ 1602  cd ..
+ 1603  ls
+ 1604  cd
+ 1605  clear
+ 1606  ./connect 
+ 1607  cd tdash
+ 1608  ls
+ 1609  cd TunedDRM/
+ 1610  ls
+ 1611  vi DNN.py 
+ 1612  git
+ 1613  cd .git
+ 1614  ls
+ 1615  exit
+ 1616  ls
+ 1617  clear
+ 1618  ls
+ 1619  cd tdash/
+ 1620  ls
+ 1621  cd DRM_ILP_ICANN/
+ 1622  ls
+ 1623  cd ..
+ 1624  ls
+ 1625  cd TunedDRM/
+ 1626  ls
+ 1627  cat README.md 
+ 1628  cd ..
+ 1629  ls
+ 1630  exit
+ 1631  ls
+ 1632  cd tdash/
+ 1633  ls
+ 1634  cd Datasets/
+ 1635  ls
+ 1636  cd all
+ 1637  ls
+ 1638  cat url.txt 
+ 1639  clear
+ 1640  cd tdash/
+ 1641  ls
+ 1642  cd CRM/
+ 1643  ls
+ 1644  cd data/
+ 1645  ls
+ 1646  cd NCI-datasets
+ 1647  ls
+ 1648  cd gi50_screen_A498/
+ 1649  ;s;
+ 1650  ls
+ 1651  cd crm/
+ 1652  ls
+ 1653  cd 2_0_0.5_10/
+ 1654  ls
+ 1655  cd ..
+ 1656  ls
+ 1657  cd ..
+ 1658  ls
+ 1659  cd ..
+ 1660  ls
+ 1661  cd 786_0
+ 1662  ls
+ 1663  cd faw
+ 1664  cd raw/
+ 1665  ls
+ 1666  vi crm_output.pl 
+ 1667  cd ..
+ 1668  clear
+ 1669  cd ..
+ 1670  ls
+ 1671  vi commands 
+ 1672  exit
+ 1673  clear
+ 1674  yap
+ 1675  clear
+ 1676  cd tdash/
+ 1677  ls
+ 1678  git clone https://github.com/tirtharajdash/SSL-CRM.git
+ 1679  ./connect
+ 1680  bash ~/connect 
+ 1681  cd 
+ 1682  ls
+ 1683  cd .caa/
+ 1684  ls
+ 1685  vi caa.conf 
+ 1686  cd ..
+ 1687  ls
+ 1688  ./connect 
+ 1689  ping google.com
+ 1690  cd tdash/
+ 1691  git clone https://github.com/tirtharajdash/SSL-CRM.git
+ 1692  vi ../connect 
+ 1693  bash ../connect 
+ 1694  git clone https://github.com/tirtharajdash/SSL-CRM.git
+ 1695  ls
+ 1696  git clone https://github.com/tirtharajdash/SSL-CRM.git
+ 1697  vi ../.caa/
+ 1698  ls
+ 1699  git clone https://github.com/tirtharajdash/SSL-CRM.git
+ 1700  clear
+ 1701  sudo passwd
+ 1702  vi .caa/
+ 1703  caa
+ 1704  .caa
+ 1705  cd .caa
+ 1706  ls
+ 1707  README
+ 1708  vi connect
+ 1709  cd ./caa
+ 1710  cd caa
+ 1711  cd .caa
+ 1712  vi config
+ 1713  cd .caa
+ 1714  ls
+ 1715  caa
+ 1716  .profile
+ 1717  caa.config
+ 1718  caa.conf
+ 1719  vi caa
+ 1720  cd .caa
+ 1721  ls
+ 1722  vi caa.conf
+ 1723  cd .caa
+ 1724  ls
+ 1725  ca-cert.pem
+ 1726  vi ca-cert.pem
+ 1727  cd .caa
+ 1728  ls
+ 1729  vi caa.conf
+ 1730  cd .caa
+ 1731  vi caa.conf
+ 1732  cd ..
+ 1733  ./bin/caa
+ 1734  ls -a
+ 1735  cd .caa
+ 1736  ls
+ 1737  cd ..
+ 1738  ./caa 
+ 1739  cd ..
+ 1740  cd .caa
+ 1741  cd ./
+ 1742  cd ~
+ 1743  cd .caa
+ 1744  ls
+ 1745  vi caa.conf
+ 1746  passwd
+ 1747  htop
+ 1748  sudo apt-get remove anydesk
+ 1749  clear
+ 1750  htop
+ 1751  sudo apt-get remove anydesk*
+ 1752  sudo apt-get update
+ 1753  clear
+ 1754  ping google.com
+ 1755  cd .caa
+ 1756  ls
+ 1757  vi ca-cert.pem
+ 1758  cd ..
+ 1759  cd caa
+ 1760  cd .caa
+ 1761  cat *
+ 1762  ls
+ 1763  clear
+ 1764  cd 
+ 1765  vi .caa/caa.conf 
+ 1766  ls
+ 1767  vi matlab_crash_dump.17383-1 
+ 1768  rm matlab_crash_dump.17383-1 
+ 1769  ls
+ 1770  vi git_token 
+ 1771  rm git_token 
+ 1772  ls
+ 1773  conda activate vegnn
+ 1774  python
+ 1775  ping google.com
+ 1776  clear
+ 1777  sudo apt-get update
+ 1778  sudo apt-get clean
+ 1779  conda deactivate
+ 1780  clear
+ 1781  sudo apt-get update
+ 1782  sudo apt-get --uninstall anydesk
+ 1783  sudo apt-get autoremove
+ 1784  sudo apt-get remove anydesk*
+ 1785  clear
+ 1786  sudo apt-get update
+ 1787  sudo apt-get remove teamviewer*
+ 1788  sudo apt-get remove teamviewer
+ 1789  clear
+ 1790  ./connect 
+ 1791  ping google.com
+ 1792  ls
+ 1793  vi caa
+ 1794  vi .caa/caa.conf 
+ 1795  cat .caa/caa.conf 
+ 1796  vi .caa/caa.conf 
+ 1797  ./connect 
+ 1798  cd tdash/
+ 1799  git clone https://github.com/tirtharajdash/SSL-CRM.git
+ 1800  ping google.com
+ 1801  clear
+ 1802  sudo apt-get install --reinstall ca-certificates
+ 1803  sudo apt-get update
+ 1804  sudo apt-get install --reinstall ca-certificates
+ 1805  sudo apt-get -f install
+ 1806  sudo dpkg --purge --force-depends ca-certificates
+ 1807  sudo apt-get -f install
+ 1808  sudo apt-get install --reinstall ca-certificates
+ 1809  git clone https://github.com/tirtharajdash/SSL-CRM.git
+ 1810  cd 
+ 1811  sudo apt-get update
+ 1812  clear
+ 1813  ping google.com
+ 1814  clear
+ 1815  sudo apt-get update --fix-broken
+ 1816  sudo apt-get update -y
+ 1817  dpkg -l | grep team
+ 1818  sudo apt purge teamviewer
+ 1819  sudo apt purge teamviewersudo apt-get remove teamviewer-host
+ 1820  sudo apt-get remove t
+ 1821  sudo apt purge anydesk
+ 1822  htop
+ 1823  sudo apt-get autoclean
+ 1824  sudo apt-get autoremove
+ 1825  sudo apt-get update
+ 1826  clear
+ 1827  ./connect 
+ 1828  ping google.com
+ 1829  cd tdash/
+ 1830  ls
+ 1831  cd SSL-CRM/
+ 1832  ls
+ 1833  cd pl/
+ 1834  ls
+ 1835  yap
+ 1836  cd .caa
+ 1837  cd
+ 1838  cd .caa
+ 1839  ls
+ 1840  ./README
+ 1841  ./connect
+ 1842  vi README
+ 1843  clear
+ 1844  ls
+ 1845  sudo passwd
+ 1846  passwd
+ 1847  ls
+ 1848  clear
+ 1849  ls
+ 1850  vi .caa/caa.conf 
+ 1851  ./connect 
+ 1852  vi .caa/caa.conf 
+ 1853  ping google.com
+ 1854  cd tdash/SSL-CRM/
+ 1855  clear
+ 1856  ls
+ 1857  mv pl_utils
+ 1858  mv pl pl_utils
+ 1859  ls
+ 1860  cd pl_utils/
+ 1861  ls
+ 1862  yap
+ 1863  clear
+ 1864  vi train.b 
+ 1865  cd ../../
+ 1866  ls
+ 1867  cd prepareBotGraph
+ 1868  ls
+ 1869  vi runthis 
+ 1870  cd ..
+ 1871  vi prepareCzech/
+ 1872  ls
+ 1873  cd cnn_graph/
+ 1874  ls
+ 1875  vi cnn_graph.py 
+ 1876  cd ..
+ 1877  ls
+ 1878  cd Datasets/
+ 1879  ls
+ 1880  cd ..
+ 1881  ls
+ 1882  cd prepareCzech/
+ 1883  ls
+ 1884  vi main.sh 
+ 1885  cd ..
+ 1886  cd SSL-CRM/
+ 1887  ls
+ 1888  cd pl_utils/
+ 1889  cd ..
+ 1890  mv pl_utils prolog_utils
+ 1891  cd prolog_utils/
+ 1892  ls
+ 1893  ln -s ../../prepareCzech/czech/atm_bond/gi50_screen_786_0_mols.pl mols.pl
+ 1894  ln -s ../../prepareCzech/czech/atm_bond/gi50_screen_786_0_atm_bond.pl atm_bond.pl
+ 1895  ln -s ../../prepareCzech/czech/two_dim/gi50_screen_786_0_fr.pl two_dim.pl
+ 1896  l
+ 1897  ln -s ../../prepareCzech/czech/map.pl map.pl
+ 1898  ls
+ 1899  yap
+ 1900  find ~/tdash/ -iname types.pl
+ 1901  vi /home/dell5810/tdash/TCS_MolGen/botgraph/types.pl
+ 1902  vi train.b 
+ 1903  yap
+ 1904  ln -s ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl train.f
+ 1905  vi train.f 
+ 1906  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | grep "pos" > train.f
+ 1907  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | grep "neg" > train.n
+ 1908  yap
+ 1909  vi lcrm_v1.pl 
+ 1910  vi train.b 
+ 1911  cat lcrm_v1.pl | grep features
+ 1912  yap
+ 1913  vi /tmp/lcrm_out.txt 
+ 1914  vi lcrm_v1.pl 
+ 1915  find ~/tdash/ -iname features.pl
+ 1916  vi /home/dell5810/tdash/cnn_graph/czech_ilp2018_datasets/gi50_screen_786_0/features.pl
+ 1917  ln -s /home/dell5810/tdash/cnn_graph/czech_ilp2018_datasets/gi50_screen_786_0/features.pl features.pl
+ 1918  yap
+ 1919  vi /tmp/lcrm_out.txt 
+ 1920  vi lcrm_v1.pl 
+ 1921  yap
+ 1922  vi lcrm_v1.pl 
+ 1923  yap
+ 1924  rm features.pl 
+ 1925  yap
+ 1926  vi train.f 
+ 1927  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | grep "neg" | head
+ 1928  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | head
+ 1929  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/test_classes.pl | head
+ 1930  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | head
+ 1931  history | grep train_classes.pl
+ 1932  head -10 *
+ 1933  pushd ../../prepareCzech/train_test_split/gi50_screen_786_0
+ 1934  head -2 *
+ 1935  ls
+ 1936  ls -a
+ 1937  ls -lt
+ 1938  find ~/tdash/ -iname train_classes.pl | grep 786_0
+ 1939  wc -l /home/dell5810/tdash/prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl
+ 1940  head /home/dell5810/tdash/CILP/MLP_1HL_100/splits/gi50_screen_786_0/train_classes.pl
+ 1941  vimdiff test_classes.pl /home/dell5810/tdash/CILP/MLP_1HL_100/splits/gi50_screen_786_0/test_classes.pl 
+ 1942  cp /home/dell5810/tdash/CILP/MLP_1HL_100/splits/gi50_screen_786_0/train_classes.pl .
+ 1943  ls
+ 1944  wc -l *
+ 1945  popd
+ 1946  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | head
+ 1947  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | grep pos |
+ 1948  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | grep pos | head
+ 1949  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | grep pos > train.f
+ 1950  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | grep neg > train.n
+ 1951  yap
+ 1952  vi lcrm_v1.pl 
+ 1953  yap
+ 1954  vi lcrm_v1.pl 
+ 1955  ls
+ 1956  history -100 > history_13022024
+ 1957  history | head -100 > history_13022024
+ 1958  vi history_13022024 
+ 1959  history | tail -100 > history_13022024
+ 1960  vi history_13022024 
+ 1961  vi /tmp/lcrm_out.txt 
+ 1962  while true; do wc -l /tmp/lcrm_out.txt; sleep(10); done;
+ 1963  while true; do wc -l /tmp/lcrm_out.txt; sleep 10; done;
+ 1964  while true; do wc -l /tmp/lcrm_out.txt; tail -1 /tmp/lcrm_out.txt; sleep 5; done;
+ 1965  while true; do wc -l /tmp/lcrm_out.txt; tail -1 /tmp/lcrm_out.txt; sleep 10; done;
+ 1966  tail /tmp/lcrm_out.txt 
+ 1967  clear
+ 1968  cd tdash/SSL-CRM/
+ 1969  ls
+ 1970  vi prolog_utils/
+ 1971  cd prolog_utils/
+ 1972  ls
+ 1973  ln -s ../../DRM_SimpleFeats_Czech/Feats/3_1_0_0/gi50_screen_786_0/features.pl .
+ 1974  clear
+ 1975  ls
+ 1976  vi train.b 
+ 1977  vi features.pl 
+ 1978  cd ..
+ 1979  cd prolog_utils/
+ 1980  yap
+ 1981  vi crm_output.pl 
+ 1982  vi lcrm_v1.pl 
+ 1983  rm lcrm_v1.pl 
+ 1984  vi lcrm_v1.pl
+ 1985  vi train.b
+ 1986  clear
+ 1987  yap
+ 1988  clear
+ 1989  find ~/tdash/ -iname subtle.pl
+ 1990  find . -iname subtle.pl
+ 1991  vi ./TDash_SeagateRec/NTFS 1/LostFiles1/Dell7810_Linux_000/tdash_10092018_000/czech_000/features_000/subtle.pl
+ 1992  vi ./TDash_SeagateRec/NTFS\ 1/LostFiles1/Dell7810_Linux_000/tdash_10092018_000/czech_000/features_000/subtle.pl 
+ 1993  cp ./TDash_SeagateRec/NTFS\ 1/LostFiles1/Dell7810_Linux_000/tdash_10092018_000/czech_000/features_000/subtle.pl tdash/SSL-CRM/prolog_utils/
+ 1994  find . -iname target_theory.pl
+ 1995  cd tdash/SSL-CRM/
+ 1996  vi train.b
+ 1997  cd prolog_utils/
+ 1998  vi train.b
+ 1999  vi lcrm_v1.pl 
+ 2000  yap
+ 2001  clear
+ 2002  cd tdash/SSL-CRM/prolog_utils/
+ 2003  ls
+ 2004  vi subtle.pl
+ 2005  vi subtle1.pl 
+ 2006  vimdiff subtle.pl subtle1.pl 
+ 2007  mv subtle1.pl subtle.pl 
+ 2008  find . -iname element.pl
+ 2009  find ~/tdash -iname element.pl
+ 2010  vi /home/dell5810/tdash/TCS_MolGen/botgraph/element.pl
+ 2011  wc -l /home/dell5810/tdash/TCS_MolGen/botgraph/element.pl
+ 2012  ls /home/dell5810/tdash/TCS_MolGen/botgraph
+ 2013  vi /tmp/a
+ 2014  vimdiff /home/dell5810/tdash/TCS_MolGen/botgraph/element.pl /tmp/a
+ 2015  cp /home/dell5810/tdash/TCS_MolGen/botgraph/element.pl .
+ 2016  cat /home/dell5810/tdash/TCS_MolGen/botgraph/bondtype.pl 
+ 2017  cp /home/dell5810/tdash/TCS_MolGen/botgraph/bondtype.pl .
+ 2018  vi length.pl
+ 2019  vi num.pl
+ 2020  vi /tmp/b
+ 2021  vimdiff /home/dell5810/tdash/TCS_MolGen/botgraph/structype.pl /tmp/b
+ 2022  cp /home/dell5810/tdash/TCS_MolGen/botgraph/structype.pl .
+ 2023  cat /home/dell5810/tdash/TCS_MolGen/botgraph/types.pl 
+ 2024  cp /home/dell5810/tdash/TCS_MolGen/botgraph/types.pl .
+ 2025  vi types.pl 
+ 2026  vi map.pl 
+ 2027  yap
+ 2028  cat /home/dell5810/tdash/TCS_MolGen/botgraph/proptype.pl 
+ 2029  vi types.pl 
+ 2030  yap
+ 2031  vi crm_output.pl 
+ 2032  rm features.pl 
+ 2033  vi features.pl
+ 2034  yap
+ 2035  vi gen.bash
+ 2036  bash gen.bash 
+ 2037  vi lcrm_out.txt 
+ 2038  cd ..
+ 2039  git add .
+ 2040  git commit -m "create crm str"
+ 2041  git push
+ 2042  cd prolog_utils/
+ 2043  ls
+ 2044  ls -a
+ 2045  ls -l
+ 2046  cp ../../prepareCzech/czech/atm_bond/gi50_screen_786_0_atm_bond.pl atm_bond.pl
+ 2047  rm atm_bond.pl 
+ 2048  cp ../../prepareCzech/czech/atm_bond/gi50_screen_786_0_atm_bond.pl atm_bond.pl
+ 2049  rm map.pl 
+ 2050  cp ../../prepareCzech/czech/map.pl .
+ 2051  vi train.n 
+ 2052  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | grep "pos"
+ 2053  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl 
+ 2054  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/test_classes.pl 
+ 2055  history | grep train_classes.pl
+ 2056  wc -l /home/dell5810/tdash/CILP/MLP_1HL_100/splits/gi50_screen_786_0/train_classes.pl ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl 
+ 2057  cp /home/dell5810/tdash/CILP/MLP_1HL_100/splits/gi50_screen_786_0/train_classes.pl ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl 
+ 2058  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | grep "pos"
+ 2059  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl > train.f
+ 2060  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | grep "pos" > train.f
+ 2061  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | grep "neg" > train.n
+ 2062  ls
+ 2063  ls -l
+ 2064  cat ../../prepareCzech/czech/atm_bond/gi50_screen_786_0_mols.pl
+ 2065  rm mols.pl 
+ 2066  cp ../../prepareCzech/czech/atm_bond/gi50_screen_786_0_mols.pl .
+ 2067  ls
+ 2068  clear
+ 2069  ls -l
+ 2070  rm two_dim.pl 
+ 2071  cp ../../prepareCzech/czech/two_dim/gi50_screen_786_0_fr.pl .
+ 2072  rm gi50_screen_786_0_fr.pl 
+ 2073  cp ../../prepareCzech/czech/two_dim/gi50_screen_786_0_fr.pl two_dim.pl
+ 2074  ls
+ 2075  rmn gi50_screen_786_0_mols.pl 
+ 2076  rm gi50_screen_786_0_mols.pl 
+ 2077  cp ../../prepareCzech/czech/atm_bond/gi50_screen_786_0_mols.pl mols.pl
+ 2078  ls
+ 2079  cat train.f 
+ 2080  rm train.f
+ 2081  clear
+ 2082  cp /home/dell5810/tdash/CILP/MLP_1HL_100/splits/gi50_screen_786_0/train_classes.pl ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl 
+ 2083  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | grep "pos" > train.f
+ 2084  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | grep "neg" > train.f
+ 2085  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | grep "pos" > train.f
+ 2086  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | grep "neg" > train.n
+ 2087  clear
+ 2088  yap
+ 2089  bash gen.bash 
+ 2090  vi lcrm_out.txt 
+ 2091  history | tail -500 > history_17022024

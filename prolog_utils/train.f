@@ -1,0 +1,1 @@
+../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl

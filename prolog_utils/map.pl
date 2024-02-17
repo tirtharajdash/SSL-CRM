@@ -1,0 +1,1 @@
+../../prepareCzech/czech/map.pl

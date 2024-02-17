@@ -1,0 +1,100 @@
+ 2013  cd pl_utils/
+ 2014  ls
+ 2015  yap
+ 2016  clear
+ 2017  vi train.b 
+ 2018  cd ../../
+ 2019  ls
+ 2020  cd prepareBotGraph
+ 2021  ls
+ 2022  vi runthis 
+ 2023  cd ..
+ 2024  vi prepareCzech/
+ 2025  ls
+ 2026  cd cnn_graph/
+ 2027  ls
+ 2028  vi cnn_graph.py 
+ 2029  cd ..
+ 2030  ls
+ 2031  cd Datasets/
+ 2032  ls
+ 2033  cd ..
+ 2034  ls
+ 2035  cd prepareCzech/
+ 2036  ls
+ 2037  vi main.sh 
+ 2038  cd ..
+ 2039  cd SSL-CRM/
+ 2040  ls
+ 2041  cd pl_utils/
+ 2042  cd ..
+ 2043  mv pl_utils prolog_utils
+ 2044  cd prolog_utils/
+ 2045  ls
+ 2046  ln -s ../../prepareCzech/czech/atm_bond/gi50_screen_786_0_mols.pl mols.pl
+ 2047  ln -s ../../prepareCzech/czech/atm_bond/gi50_screen_786_0_atm_bond.pl atm_bond.pl
+ 2048  ln -s ../../prepareCzech/czech/two_dim/gi50_screen_786_0_fr.pl two_dim.pl
+ 2049* l
+ 2050  ln -s ../../prepareCzech/czech/map.pl map.pl
+ 2051  ls
+ 2052  yap
+ 2053  find ~/tdash/ -iname types.pl
+ 2054  vi /home/dell5810/tdash/TCS_MolGen/botgraph/types.pl
+ 2055  vi train.b 
+ 2056  yap
+ 2057  ln -s ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl train.f
+ 2058  vi train.f 
+ 2059  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | grep "pos" > train.f
+ 2060  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | grep "neg" > train.n
+ 2061  yap
+ 2062  vi lcrm_v1.pl 
+ 2063  vi train.b 
+ 2064  cat lcrm_v1.pl | grep features
+ 2065  yap
+ 2066  vi /tmp/lcrm_out.txt 
+ 2067  vi lcrm_v1.pl 
+ 2068  find ~/tdash/ -iname features.pl
+ 2069  vi /home/dell5810/tdash/cnn_graph/czech_ilp2018_datasets/gi50_screen_786_0/features.pl
+ 2070  ln -s /home/dell5810/tdash/cnn_graph/czech_ilp2018_datasets/gi50_screen_786_0/features.pl features.pl
+ 2071  yap
+ 2072  vi /tmp/lcrm_out.txt 
+ 2073  vi lcrm_v1.pl 
+ 2074  yap
+ 2075  vi lcrm_v1.pl 
+ 2076  yap
+ 2077  rm features.pl 
+ 2078  yap
+ 2079  vi train.f 
+ 2080  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | grep "neg" | head
+ 2081  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | head
+ 2082  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/test_classes.pl | head
+ 2083  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | head
+ 2084  history | grep train_classes.pl
+ 2085  head -10 *
+ 2086  pushd ../../prepareCzech/train_test_split/gi50_screen_786_0
+ 2087  head -2 *
+ 2088  ls
+ 2089  ls -a
+ 2090  ls -lt
+ 2091  find ~/tdash/ -iname train_classes.pl | grep 786_0
+ 2092  wc -l /home/dell5810/tdash/prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl
+ 2093  head /home/dell5810/tdash/CILP/MLP_1HL_100/splits/gi50_screen_786_0/train_classes.pl
+ 2094  vimdiff test_classes.pl /home/dell5810/tdash/CILP/MLP_1HL_100/splits/gi50_screen_786_0/test_classes.pl 
+ 2095  cp /home/dell5810/tdash/CILP/MLP_1HL_100/splits/gi50_screen_786_0/train_classes.pl .
+ 2096  ls
+ 2097  wc -l *
+ 2098  popd
+ 2099  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | head
+ 2100  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | grep pos |
+ 2101  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | grep pos | head
+ 2102  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | grep pos > train.f
+ 2103  cat ../../prepareCzech/train_test_split/gi50_screen_786_0/train_classes.pl | grep neg > train.n
+ 2104  yap
+ 2105  vi lcrm_v1.pl 
+ 2106  yap
+ 2107  vi lcrm_v1.pl 
+ 2108  ls
+ 2109  history -100 > history_13022024
+ 2110  history | head -100 > history_13022024
+ 2111  vi history_13022024 
+ 2112  history | tail -100 > history_13022024

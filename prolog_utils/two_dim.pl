@@ -1,0 +1,1 @@
+../../prepareCzech/czech/two_dim/gi50_screen_786_0_fr.pl

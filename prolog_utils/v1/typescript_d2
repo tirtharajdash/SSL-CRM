@@ -1,0 +1,150 @@
+Script started on Sun 25 Feb 2024 08:28:40 PM IST
+]0;ashwin@localhost:~/ashwin/test/features/simple]7;file://localhost.localdomain/home/ashwin/ashwin/test/features/simple[?1034h[ashwin@localhost simple]$ yap
+% Restoring file /usr/lib64/Yap/startup.yss
+YAP 6.2.2 (x86_64-linux): Sun Aug  4 11:44:53 UTC 2013
+MYDDAS version MYDDAS-0.9.1
+[?1034h   ?- [gen_simple].
+ % consulting /home/ashwin/Desktop/ashwin/test/features/simple/gen_simple.pl...
+  % consulting /home/ashwin/Desktop/ashwin/test/features/simple/subtle.pl...
+   % reconsulting /usr/share/Yap/lists.yap...
+    % reconsulting /usr/share/Yap/error.pl...
+    % reconsulted /usr/share/Yap/error.pl in module error, 4 msec 41424 bytes
+   % reconsulted /usr/share/Yap/lists.yap in module lists, 10 msec 95632 bytes
+   % reconsulting /usr/share/Yap/terms.yap...
+   % reconsulted /usr/share/Yap/terms.yap in module terms, 0 msec 3696 bytes
+% Warning:  (/home/ashwin/Desktop/ashwin/test/features/simple/subtle.pl:47).
+% Importing private predicate terms:term_variables/2 to subtle.
+   % reconsulting /usr/share/Yap/charsio.yap...
+   % reconsulted /usr/share/Yap/charsio.yap in module charsio, 1 msec 18544 bytes
+  % consulted /home/ashwin/Desktop/ashwin/test/features/simple/subtle.pl in module subtle, 22 msec 239280 bytes
+  % consulting /home/ashwin/Desktop/ashwin/test/features/simple/back.pl...
+   % consulting /home/ashwin/Desktop/ashwin/test/features/simple/types.pl...
+    % consulting /home/ashwin/Desktop/ashwin/test/features/simple/element.pl...
+    % consulted /home/ashwin/Desktop/ashwin/test/features/simple/element.pl in module user, 0 msec 6192 bytes
+    % consulting /home/ashwin/Desktop/ashwin/test/features/simple/bondtype.pl...
+    % consulted /home/ashwin/Desktop/ashwin/test/features/simple/bondtype.pl in module user, 0 msec 912 bytes
+    % consulting /home/ashwin/Desktop/ashwin/test/features/simple/structype.pl...
+    % consulted /home/ashwin/Desktop/ashwin/test/features/simple/structype.pl in module user, 0 msec 7408 bytes
+    % consulting /home/ashwin/Desktop/ashwin/test/features/simple/length.pl...
+    % consulted /home/ashwin/Desktop/ashwin/test/features/simple/length.pl in module user, 0 msec 1136 bytes
+    % consulting /home/ashwin/Desktop/ashwin/test/features/simple/num.pl...
+    % consulted /home/ashwin/Desktop/ashwin/test/features/simple/num.pl in module user, 1 msec 1136 bytes
+   % consulted /home/ashwin/Desktop/ashwin/test/features/simple/types.pl in module user, 3 msec 19120 bytes
+     ERROR!!  (/home/ashwin/Desktop/ashwin/test/features/simple/back.pl:144).
+     PERMISSION ERROR- consult(mols): cannot read from mols
+     ERROR!!  (/home/ashwin/Desktop/ashwin/test/features/simple/back.pl:145).
+     PERMISSION ERROR- consult(atm_bond): cannot read from atm_bond
+     ERROR!!  (/home/ashwin/Desktop/ashwin/test/features/simple/back.pl:146).
+     PERMISSION ERROR- consult(two_dim): cannot read from two_dim
+   % consulting /home/ashwin/Desktop/ashwin/test/features/simple/map.pl...
+   % consulted /home/ashwin/Desktop/ashwin/test/features/simple/map.pl in module user, 1 msec 4944 bytes
+  % consulted /home/ashwin/Desktop/ashwin/test/features/simple/back.pl in module user, 6 msec 65408 bytes
+ % consulted /home/ashwin/Desktop/ashwin/test/features/simple/gen_simple.pl in module user, 45 msec 479776 bytes
+yes
+   ?- gen_features(2,0,0,0).
+'$aleph_feature'(1,[],_,class(A,_),has_struc(A,_,_,thioxime)).
+'$aleph_feature'(2,[],_,class(A,_),has_struc(A,_,_,thio_s_ester_car)).
+'$aleph_feature'(3,[],_,class(A,_),has_struc(A,_,_,thiophene_ring)).
+'$aleph_feature'(4,[],_,class(A,_),has_struc(A,_,_,thio_o_ester_car)).
+'$aleph_feature'(5,[],_,class(A,_),has_struc(A,_,_,thioether)).
+'$aleph_feature'(6,[],_,class(A,_),has_struc(A,_,_,thioamide)).
+'$aleph_feature'(7,[],_,class(A,_),has_struc(A,_,_,sulfoxide)).
+'$aleph_feature'(8,[],_,class(A,_),has_struc(A,_,_,sulfonic_ester)).
+'$aleph_feature'(9,[],_,class(A,_),has_struc(A,_,_,sulfonamide)).
+'$aleph_feature'(10,[],_,class(A,_),has_struc(A,_,_,sulfon)).
+'$aleph_feature'(11,[],_,class(A,_),has_struc(A,_,_,sulfide)).
+'$aleph_feature'(12,[],_,class(A,_),has_struc(A,_,_,pyrrole_ring)).
+'$aleph_feature'(13,[],_,class(A,_),has_struc(A,_,_,pyrimidine_ring)).
+'$aleph_feature'(14,[],_,class(A,_),has_struc(A,_,_,pyridine_ring)).
+'$aleph_feature'(15,[],_,class(A,_),has_struc(A,_,_,pyridazine_ring)).
+'$aleph_feature'(16,[],_,class(A,_),has_struc(A,_,_,pyrazole_ring)).
+'$aleph_feature'(17,[],_,class(A,_),has_struc(A,_,_,pyrazine_ring)).
+'$aleph_feature'(18,[],_,class(A,_),has_struc(A,_,_,phosphonate)).
+'$aleph_feature'(19,[],_,class(A,_),has_struc(A,_,_,phosphinate)).
+'$aleph_feature'(20,[],_,class(A,_),has_struc(A,_,_,phosphate)).
+'$aleph_feature'(21,[],_,class(A,_),has_struc(A,_,_,oxime)).
+'$aleph_feature'(22,[],_,class(A,_),has_struc(A,_,_,oxide)).
+'$aleph_feature'(23,[],_,class(A,_),has_struc(A,_,_,non_hetero_non_aromatic)).
+'$aleph_feature'(24,[],_,class(A,_),has_struc(A,_,_,non_hetero_aromatic)).
+'$aleph_feature'(25,[],_,class(A,_),has_struc(A,_,_,nitroso_group)).
+'$aleph_feature'(26,[],_,class(A,_),has_struc(A,_,_,nitro_group)).
+'$aleph_feature'(27,[],_,class(A,_),has_struc(A,_,_,nitrile)).
+'$aleph_feature'(28,[],_,class(A,_),has_struc(A,_,_,misc_phosphor_group)).
+'$aleph_feature'(29,[],_,class(A,_),has_struc(A,_,_,metal_ion)).
+'$aleph_feature'(30,[],_,class(A,_),has_struc(A,_,_,keton)).
+'$aleph_feature'(31,[],_,class(A,_),has_struc(A,_,_,iminium_ion)).
+'$aleph_feature'(32,[],_,class(A,_),has_struc(A,_,_,imine)).
+'$aleph_feature'(33,[],_,class(A,_),has_struc(A,_,_,imidazole_ring)).
+'$aleph_feature'(34,[],_,class(A,_),has_struc(A,_,_,hydroxylamine)).
+'$aleph_feature'(35,[],_,class(A,_),has_struc(A,_,_,hydroxyammonium)).
+'$aleph_feature'(36,[],_,class(A,_),has_struc(A,_,_,hetero_non_aromatic)).
+'$aleph_feature'(37,[],_,class(A,_),has_struc(A,_,_,hetero_aromatic)).
+'$aleph_feature'(38,[],_,class(A,_),has_struc(A,_,_,halide)).
+'$aleph_feature'(39,[],_,class(A,_),has_struc(A,_,_,furan_ring)).
+'$aleph_feature'(40,[],_,class(A,_),has_struc(A,_,_,ether)).
+'$aleph_feature'(41,[],_,class(A,_),has_struc(A,_,_,ester_car)).
+'$aleph_feature'(42,[],_,class(A,_),has_struc(A,_,_,dithio_ester_car)).
+'$aleph_feature'(43,[],_,class(A,_),has_struc(A,_,_,dithio_conjug_base_car)).
+'$aleph_feature'(44,[],_,class(A,_),has_struc(A,_,_,diazo_group)).
+'$aleph_feature'(45,[],_,class(A,_),has_struc(A,_,_,conjug_base_car)).
+'$aleph_feature'(46,[],_,class(A,_),has_struc(A,_,_,benzene_ring)).
+'$aleph_feature'(47,[],_,class(A,_),has_struc(A,_,_,azide)).
+'$aleph_feature'(48,[],_,class(A,_),has_struc(A,_,_,ammonium_ion)).
+'$aleph_feature'(49,[],_,class(A,_),has_struc(A,_,_,amine)).
+'$aleph_feature'(50,[],_,class(A,_),has_struc(A,_,_,acylhalide)).
+'$aleph_feature_weight'(1,1.0).
+'$aleph_feature_weight'(2,1.0).
+'$aleph_feature_weight'(3,1.0).
+'$aleph_feature_weight'(4,1.0).
+'$aleph_feature_weight'(5,1.0).
+'$aleph_feature_weight'(6,1.0).
+'$aleph_feature_weight'(7,1.0).
+'$aleph_feature_weight'(8,1.0).
+'$aleph_feature_weight'(9,1.0).
+'$aleph_feature_weight'(10,1.0).
+'$aleph_feature_weight'(11,1.0).
+'$aleph_feature_weight'(12,1.0).
+'$aleph_feature_weight'(13,1.0).
+'$aleph_feature_weight'(14,1.0).
+'$aleph_feature_weight'(15,1.0).
+'$aleph_feature_weight'(16,1.0).
+'$aleph_feature_weight'(17,1.0).
+'$aleph_feature_weight'(18,1.0).
+'$aleph_feature_weight'(19,1.0).
+'$aleph_feature_weight'(20,1.0).
+'$aleph_feature_weight'(21,1.0).
+'$aleph_feature_weight'(22,1.0).
+'$aleph_feature_weight'(23,1.0).
+'$aleph_feature_weight'(24,1.0).
+'$aleph_feature_weight'(25,1.0).
+'$aleph_feature_weight'(26,1.0).
+'$aleph_feature_weight'(27,1.0).
+'$aleph_feature_weight'(28,1.0).
+'$aleph_feature_weight'(29,1.0).
+'$aleph_feature_weight'(30,1.0).
+'$aleph_feature_weight'(31,1.0).
+'$aleph_feature_weight'(32,1.0).
+'$aleph_feature_weight'(33,1.0).
+'$aleph_feature_weight'(34,1.0).
+'$aleph_feature_weight'(35,1.0).
+'$aleph_feature_weight'(36,1.0).
+'$aleph_feature_weight'(37,1.0).
+'$aleph_feature_weight'(38,1.0).
+'$aleph_feature_weight'(39,1.0).
+'$aleph_feature_weight'(40,1.0).
+'$aleph_feature_weight'(41,1.0).
+'$aleph_feature_weight'(42,1.0).
+'$aleph_feature_weight'(43,1.0).
+'$aleph_feature_weight'(44,1.0).
+'$aleph_feature_weight'(45,1.0).
+'$aleph_feature_weight'(46,1.0).
+'$aleph_feature_weight'(47,1.0).
+'$aleph_feature_weight'(48,1.0).
+'$aleph_feature_weight'(49,1.0).
+'$aleph_feature_weight'(50,1.0).
+'$aleph_feature_count'(50).
+yes
+   ?- ]0;ashwin@localhost:~/ashwin/test/features/simple]7;file://localhost.localdomain/home/ashwin/ashwin/test/features/simple[ashwin@localhost simple]$ exit
+exit
+
+Script done on Sun 25 Feb 2024 08:29:01 PM IST

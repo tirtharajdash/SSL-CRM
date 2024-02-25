@@ -1,6 +1,6 @@
 :- [aleph].
 :- [subtle].
-%:- [target_theory].
+:- [target_theory].
 
 :- dynamic cache/1.
 :- dynamic aln_cache/2.

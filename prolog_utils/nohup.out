@@ -1,0 +1,2112 @@
+% Restoring file /usr/lib/Yap/startup.yss
+YAP 6.2.2 (x86_64-linux): Wed Jul 15 05:25:26 UTC 2015
+ % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/lcrm_v1.pl...
+  % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/aleph.pl...
+
+
+A L E P H
+Version 6
+Last modified: Sat Nov 25 02:54:21 UTC 2017
+
+Manual: http://www.comlab.ox.ac.uk/oucl/groups/machlearn/Aleph/index.html
+
+  % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/aleph.pl in module user, 96 msec 2564400 bytes
+  % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl...
+   % reconsulting /usr/share/Yap/lists.yap...
+    % reconsulting /usr/share/Yap/error.pl...
+    % reconsulted /usr/share/Yap/error.pl in module error, 0 msec 41456 bytes
+   % reconsulted /usr/share/Yap/lists.yap in module lists, 4 msec 95632 bytes
+   % reconsulting /usr/share/Yap/terms.yap...
+   % reconsulted /usr/share/Yap/terms.yap in module terms, 0 msec 3696 bytes
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:47).
+% Importing private predicate terms:term_variables/2 to subtle.
+   % reconsulting /usr/share/Yap/charsio.yap...
+   % reconsulted /usr/share/Yap/charsio.yap in module charsio, 0 msec 18544 bytes
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:34).
+% Singleton variable Clause in subtle:lggI/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:41).
+% Singleton variable Atom in subtle:lggI2/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:80).
+% Singleton variable D in subtle:membervar/2.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:114).
+% Singleton variable A in subtle:getEquiv/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:123).
+% Singleton variable Unique in subtle:dropLitsWithUniqueVars/4.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:151).
+% Singleton variable Y in subtle:affected/2.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:222).
+% Singleton variable F in subtle:inside/2.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:240).
+% Singleton variable Prev in subtle:gatherLinkedLits/4.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:273).
+% Singleton variable Lit in subtle:filter/3.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:335).
+% Singleton variable L in subtle:intersect/3.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:336).
+% Singleton variable L in subtle:intersect/3.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:368).
+% Singleton variable PrevQ in subtle:gb1/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:382).
+% Singleton variable Lit in subtle:quality/3.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:383).
+% Singleton variable F in subtle:quality/3.
+  % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl in module subtle, 12 msec 240032 bytes
+  % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/target_theory.pl...
+  % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/target_theory.pl in module user, 0 msec 6592 bytes
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/lcrm_v1.pl:57).
+% Singleton variable Aln in user:sample_aln/2.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/lcrm_v1.pl:351).
+% Singleton variable GDef in user:initiate_aln/0.
+ % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/lcrm_v1.pl in module user, 112 msec 3083200 bytes
+yes
+ % reconsulting /home/dell5810/tdash/SSL-CRM/prolog_utils/train.b...
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/train.b:55).
+% Singleton variables MolID, MolId in user:compound_id/1.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/train.b:74).
+% Singleton variable Mol in user:fused/3.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/train.b:102).
+% Singleton variables D, MolID in user:symbond/4.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/train.b:104).
+% Singleton variables D, MolID in user:symbond/4.
+  % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/types.pl...
+   % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/element.pl...
+   % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/element.pl in module user, 0 msec 6800 bytes
+   % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/bondtype.pl...
+   % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/bondtype.pl in module user, 0 msec 880 bytes
+   % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/structype.pl...
+   % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/structype.pl in module user, 0 msec 7392 bytes
+   % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/length.pl...
+   % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/length.pl in module user, 0 msec 1136 bytes
+   % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/num.pl...
+   % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/num.pl in module user, 0 msec 1136 bytes
+   % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/map.pl...
+   % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/map.pl in module user, 0 msec 4880 bytes
+  % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/types.pl in module user, 0 msec 26512 bytes
+  % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/mols.pl...
+  % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/mols.pl in module user, 24 msec 517920 bytes
+  % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/atm_bond.pl...
+  % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/atm_bond.pl in module user, 644 msec 22185360 bytes
+  % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/two_dim.pl...
+  % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/two_dim.pl in module user, 0 msec 4944 bytes
+  % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/map.pl...
+  % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/map.pl in module user, 0 msec 4848 bytes
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/train.b:152).
+% Singleton variables Head, Mol in user:prune/1.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/train.b:155).
+% Singleton variables Head, Mol in user:prune/1.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/train.b:160).
+% Singleton variables Head, B, C in user:prune/1.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/train.b:165).
+% Singleton variables Head, B, C in user:prune/1.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/train.b:171).
+% Singleton variables Head, Mol in user:prune/1.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/train.b:175).
+% Singleton variables Head, Mol in user:prune/1.
+ % reconsulted /home/dell5810/tdash/SSL-CRM/prolog_utils/train.b in module user, 668 msec 22788176 bytes
+[consulting pos examples] [train.f]
+[consulting neg examples] [train.n]
+[cannot open] [train.r]
+yes
+ % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl...
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:1).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:2).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:3).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:4).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:5).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:6).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:7).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:8).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:9).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:10).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:11).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:12).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:13).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:14).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:15).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:16).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:17).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:18).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:19).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:20).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:21).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:22).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:23).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:24).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:25).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:26).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:27).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:28).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:29).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:30).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:31).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:32).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:33).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:34).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:35).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:36).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:37).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:38).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:39).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:40).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:41).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:42).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:43).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:44).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:45).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:46).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:47).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:48).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:49).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:50).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:51).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:52).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:53).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:54).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:55).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:56).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:57).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:58).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:59).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:60).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:61).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:62).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:63).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:64).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:65).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:66).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:67).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:68).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:69).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:70).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:71).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:72).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:73).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:74).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:75).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:76).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:77).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:78).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:79).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:80).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:81).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:82).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:83).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:84).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:85).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:86).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:87).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:88).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:89).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:90).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:91).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:92).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:93).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:94).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:95).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:96).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:97).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:98).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:99).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:100).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:101).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:102).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:103).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:104).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:105).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:106).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:107).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:108).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:109).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:110).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:111).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:112).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:113).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:114).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:115).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:116).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:117).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:118).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:119).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:120).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:121).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:122).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:123).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:124).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:125).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:126).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:127).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:128).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:129).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:130).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:131).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:132).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:133).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:134).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:135).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:136).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:137).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:138).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:139).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:140).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:141).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:142).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:143).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:144).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:145).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:146).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:147).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:148).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:149).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:150).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:151).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:152).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:153).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:154).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:155).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:156).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:157).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:158).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:159).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:160).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:161).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:162).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:163).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:164).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:165).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:166).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:167).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:168).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:169).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:170).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:171).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:172).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:173).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:174).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:175).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:176).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:177).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:178).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:179).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:180).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:181).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:182).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:183).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:184).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:185).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:186).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:187).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:188).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:189).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:190).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:191).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:192).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:193).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:194).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:195).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:196).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:197).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:198).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:199).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:200).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:201).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:202).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:203).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:204).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:205).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:206).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:207).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:208).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:209).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:210).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:211).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:212).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:213).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:214).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:215).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:216).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:217).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:218).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:219).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:220).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:221).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:222).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:223).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:224).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:225).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:226).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:227).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:228).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:229).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:230).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:231).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:232).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:233).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:234).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:235).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:236).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:237).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:238).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:239).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:240).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:241).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:242).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:243).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:244).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:245).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:246).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:247).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:248).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:249).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:250).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:251).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:252).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:253).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:254).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:255).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:256).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:257).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:258).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:259).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:260).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:261).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:262).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:263).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:264).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:265).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:266).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:267).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:268).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:269).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:270).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:271).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:272).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:273).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:274).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:275).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:276).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:277).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:278).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:279).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:280).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:281).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:282).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:283).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:284).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:285).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:286).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:287).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:288).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:289).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:290).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:291).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:292).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:293).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:294).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:295).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:296).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:297).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:298).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:299).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:300).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:301).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:302).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:303).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:304).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:305).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:306).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:307).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:308).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:309).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:310).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:311).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:312).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:313).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:314).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:315).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:316).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:317).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:318).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:319).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:320).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:321).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:322).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:323).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:324).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:325).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:326).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:327).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:328).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:329).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:330).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:331).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:332).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:333).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:334).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:335).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:336).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:337).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:338).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:339).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:340).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:341).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:342).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:343).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:344).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:345).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:346).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:347).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:348).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:349).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:350).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:351).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:352).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:353).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:354).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:355).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:356).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:357).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:358).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:359).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:360).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:361).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:362).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:363).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:364).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:365).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:366).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:367).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:368).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:369).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:370).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:371).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:372).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:373).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:374).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:375).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:376).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:377).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:378).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:379).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:380).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:381).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:382).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:383).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:384).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:385).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:386).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:387).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:388).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:389).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:390).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:391).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:392).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:393).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:394).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:395).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:396).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:397).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:398).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:399).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:400).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:401).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:402).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:403).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:404).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:405).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:406).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:407).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:408).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:409).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:410).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:411).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:412).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:413).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:414).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:415).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:416).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:417).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:418).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:419).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:420).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:421).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:422).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:423).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:424).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:425).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:426).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:427).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:428).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:429).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:430).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:431).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:432).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:433).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:434).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:435).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:436).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:437).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:438).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:439).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:440).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:441).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:442).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:443).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:444).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:445).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:446).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:447).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:448).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:449).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:450).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:451).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:452).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:453).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:454).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:455).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:456).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:457).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:458).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:459).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:460).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:461).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:462).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:463).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:464).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:465).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:466).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:467).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:468).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:469).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:470).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:471).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:472).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+ % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl in module user, 28 msec 386960 bytes
+% YAP exiting: cannot handle signal 2
+% Restoring file /usr/lib/Yap/startup.yss
+YAP 6.2.2 (x86_64-linux): Wed Jul 15 05:25:26 UTC 2015
+ % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/lcrm_v1.pl...
+  % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/aleph.pl...
+
+
+A L E P H
+Version 6
+Last modified: Sat Nov 25 02:54:21 UTC 2017
+
+Manual: http://www.comlab.ox.ac.uk/oucl/groups/machlearn/Aleph/index.html
+
+  % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/aleph.pl in module user, 100 msec 2564400 bytes
+  % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl...
+   % reconsulting /usr/share/Yap/lists.yap...
+    % reconsulting /usr/share/Yap/error.pl...
+    % reconsulted /usr/share/Yap/error.pl in module error, 0 msec 41456 bytes
+   % reconsulted /usr/share/Yap/lists.yap in module lists, 4 msec 95632 bytes
+   % reconsulting /usr/share/Yap/terms.yap...
+   % reconsulted /usr/share/Yap/terms.yap in module terms, 0 msec 3696 bytes
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:47).
+% Importing private predicate terms:term_variables/2 to subtle.
+   % reconsulting /usr/share/Yap/charsio.yap...
+   % reconsulted /usr/share/Yap/charsio.yap in module charsio, 0 msec 18544 bytes
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:34).
+% Singleton variable Clause in subtle:lggI/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:41).
+% Singleton variable Atom in subtle:lggI2/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:80).
+% Singleton variable D in subtle:membervar/2.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:114).
+% Singleton variable A in subtle:getEquiv/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:123).
+% Singleton variable Unique in subtle:dropLitsWithUniqueVars/4.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:151).
+% Singleton variable Y in subtle:affected/2.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:222).
+% Singleton variable F in subtle:inside/2.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:240).
+% Singleton variable Prev in subtle:gatherLinkedLits/4.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:273).
+% Singleton variable Lit in subtle:filter/3.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:335).
+% Singleton variable L in subtle:intersect/3.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:336).
+% Singleton variable L in subtle:intersect/3.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:368).
+% Singleton variable PrevQ in subtle:gb1/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:382).
+% Singleton variable Lit in subtle:quality/3.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl:383).
+% Singleton variable F in subtle:quality/3.
+  % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/subtle.pl in module subtle, 16 msec 240032 bytes
+  % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/target_theory.pl...
+  % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/target_theory.pl in module user, 0 msec 6592 bytes
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/lcrm_v1.pl:57).
+% Singleton variable Aln in user:sample_aln/2.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/lcrm_v1.pl:351).
+% Singleton variable GDef in user:initiate_aln/0.
+ % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/lcrm_v1.pl in module user, 124 msec 3083200 bytes
+yes
+ % reconsulting /home/dell5810/tdash/SSL-CRM/prolog_utils/train.b...
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/train.b:55).
+% Singleton variables MolID, MolId in user:compound_id/1.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/train.b:74).
+% Singleton variable Mol in user:fused/3.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/train.b:102).
+% Singleton variables D, MolID in user:symbond/4.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/train.b:104).
+% Singleton variables D, MolID in user:symbond/4.
+  % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/types.pl...
+   % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/element.pl...
+   % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/element.pl in module user, 0 msec 6800 bytes
+   % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/bondtype.pl...
+   % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/bondtype.pl in module user, 0 msec 880 bytes
+   % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/structype.pl...
+   % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/structype.pl in module user, 0 msec 7392 bytes
+   % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/length.pl...
+   % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/length.pl in module user, 0 msec 1136 bytes
+   % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/num.pl...
+   % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/num.pl in module user, 0 msec 1136 bytes
+   % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/map.pl...
+   % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/map.pl in module user, 0 msec 4880 bytes
+  % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/types.pl in module user, 0 msec 26512 bytes
+  % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/mols.pl...
+  % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/mols.pl in module user, 16 msec 517920 bytes
+  % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/atm_bond.pl...
+  % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/atm_bond.pl in module user, 652 msec 22185360 bytes
+  % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/two_dim.pl...
+  % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/two_dim.pl in module user, 0 msec 4944 bytes
+  % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/map.pl...
+  % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/map.pl in module user, 0 msec 4848 bytes
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/train.b:152).
+% Singleton variables Head, Mol in user:prune/1.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/train.b:155).
+% Singleton variables Head, Mol in user:prune/1.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/train.b:160).
+% Singleton variables Head, B, C in user:prune/1.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/train.b:165).
+% Singleton variables Head, B, C in user:prune/1.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/train.b:171).
+% Singleton variables Head, Mol in user:prune/1.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/train.b:175).
+% Singleton variables Head, Mol in user:prune/1.
+ % reconsulted /home/dell5810/tdash/SSL-CRM/prolog_utils/train.b in module user, 668 msec 22788176 bytes
+[consulting pos examples] [train.f]
+[consulting neg examples] [train.n]
+[cannot open] [train.r]
+yes
+ % consulting /home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl...
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:1).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:2).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:3).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:4).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:5).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:6).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:7).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:8).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:9).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:10).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:11).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:12).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:13).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:14).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:15).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:16).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:17).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:18).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:19).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:20).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:21).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:22).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:23).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:24).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:25).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:26).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:27).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:28).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:29).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:30).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:31).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:32).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:33).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:34).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:35).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:36).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:37).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:38).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:39).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:40).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:41).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:42).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:43).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:44).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:45).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:46).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:47).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:48).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:49).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:50).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:51).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:52).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:53).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:54).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:55).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:56).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:57).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:58).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:59).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:60).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:61).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:62).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:63).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:64).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:65).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:66).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:67).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:68).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:69).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:70).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:71).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:72).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:73).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:74).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:75).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:76).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:77).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:78).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:79).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:80).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:81).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:82).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:83).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:84).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:85).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:86).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:87).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:88).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:89).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:90).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:91).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:92).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:93).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:94).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:95).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:96).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:97).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:98).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:99).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:100).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:101).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:102).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:103).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:104).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:105).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:106).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:107).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:108).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:109).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:110).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:111).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:112).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:113).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:114).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:115).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:116).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:117).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:118).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:119).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:120).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:121).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:122).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:123).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:124).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:125).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:126).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:127).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:128).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:129).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:130).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:131).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:132).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:133).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:134).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:135).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:136).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:137).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:138).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:139).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:140).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:141).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:142).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:143).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:144).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:145).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:146).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:147).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:148).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:149).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:150).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:151).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:152).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:153).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:154).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:155).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:156).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:157).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:158).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:159).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:160).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:161).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:162).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:163).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:164).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:165).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:166).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:167).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:168).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:169).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:170).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:171).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:172).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:173).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:174).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:175).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:176).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:177).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:178).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:179).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:180).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:181).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:182).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:183).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:184).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:185).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:186).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:187).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:188).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:189).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:190).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:191).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:192).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:193).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:194).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:195).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:196).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:197).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:198).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:199).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:200).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:201).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:202).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:203).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:204).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:205).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:206).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:207).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:208).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:209).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:210).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:211).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:212).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:213).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:214).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:215).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:216).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:217).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:218).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:219).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:220).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:221).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:222).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:223).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:224).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:225).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:226).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:227).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:228).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:229).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:230).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:231).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:232).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:233).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:234).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:235).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:236).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:237).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:238).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:239).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:240).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:241).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:242).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:243).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:244).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:245).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:246).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:247).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:248).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:249).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:250).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:251).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:252).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:253).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:254).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:255).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:256).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:257).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:258).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:259).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:260).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:261).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:262).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:263).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:264).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:265).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:266).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:267).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:268).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:269).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:270).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:271).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:272).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:273).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:274).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:275).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:276).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:277).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:278).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:279).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:280).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:281).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:282).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:283).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:284).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:285).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:286).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:287).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:288).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:289).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:290).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:291).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:292).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:293).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:294).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:295).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:296).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:297).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:298).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:299).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:300).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:301).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:302).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:303).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:304).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:305).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:306).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:307).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:308).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:309).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:310).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:311).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:312).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:313).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:314).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:315).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:316).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:317).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:318).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:319).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:320).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:321).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:322).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:323).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:324).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:325).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:326).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:327).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:328).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:329).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:330).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:331).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:332).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:333).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:334).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:335).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:336).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:337).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:338).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:339).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:340).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:341).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:342).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:343).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:344).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:345).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:346).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:347).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:348).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:349).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:350).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:351).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:352).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:353).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:354).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:355).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:356).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:357).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:358).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:359).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:360).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:361).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:362).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:363).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:364).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:365).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:366).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:367).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:368).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:369).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:370).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:371).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:372).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:373).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:374).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:375).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:376).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:377).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:378).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:379).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:380).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:381).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:382).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:383).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:384).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:385).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:386).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:387).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:388).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:389).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:390).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:391).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:392).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:393).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:394).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:395).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:396).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:397).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:398).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:399).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:400).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:401).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:402).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:403).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:404).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:405).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:406).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:407).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:408).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:409).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:410).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:411).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:412).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:413).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:414).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:415).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:416).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:417).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:418).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:419).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:420).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:421).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:422).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:423).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:424).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:425).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:426).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:427).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:428).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:429).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:430).
+% Singleton variables A, C, D in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:431).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:432).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:433).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:434).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:435).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:436).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:437).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:438).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:439).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:440).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:441).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:442).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:443).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:444).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:445).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:446).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:447).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:448).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:449).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:450).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:451).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:452).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:453).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:454).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:455).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:456).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:457).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:458).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:459).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:460).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:461).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:462).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:463).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:464).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:465).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:466).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:467).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:468).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:469).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:470).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:471).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+% Warning:  (/home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl:472).
+% Singleton variables A, C, D, E in user:'$aleph_feature'/5.
+ % consulted /home/dell5810/tdash/SSL-CRM/prolog_utils/features.pl in module user, 20 msec 386960 bytes
+yes

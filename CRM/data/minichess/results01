@@ -1,0 +1,460 @@
+Namespace(file='data/minichess/config', output='data/minichess/results01', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Namespace(file='data/minichess/config', output='data/minichess/results01', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Namespace(file='data/minichess/config', output='data/minichess/results01', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Namespace(file='data/minichess/config', output='data/minichess/results01', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+
+
+Shapes:
+X_train = {0: 0, 1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0, 7: 1, 8: 1, 9: 1, 10: 0, 11: 0, 12: 0, 13: 0, 14: 0, 15: 0, 16: 1, 17: 1, 18: 0, 19: 0, 20: 0, 21: 1, 22: 1, 23: 1, 24: 0, 25: 0, 26: 0, 27: 0, 28: 0, 29: 0, 30: 1, 31: 0, 32: 0, 33: 0, 34: 0, 35: 0, 36: 0, 37: 0, 38: 0, 39: 0, 40: 0, 41: 0, 42: 0, 43: 0, 44: 0, 45: 0, 46: 0, 47: 0, 48: 0, 49: 0, 50: 0, 51: 0, 52: 1, 53: 0, 54: 0, 55: 0, 56: 0, 57: 0, 58: 0, 59: 0, 60: 0, 61: 0, 62: 1, 63: 0, 64: 0, 65: 1, 66: 0, 67: 0, 68: 0, 69: 0, 70: 0, 71: 1, 72: 0, 73: 0, 74: 0, 75: 0, 76: 0, 77: 0, 78: 0, 79: 1, 80: 0, 81: 0, 82: 0, 83: 1, 84: 1, 85: 0, 86: 0, 87: 0, 88: 0, 89: 0, 90: 0, 91: 0, 92: 0, 93: 0, 94: 1, 95: 1, 96: 0, 97: 0, 98: 0, 99: 0, 100: 0, 101: 0, 102: 0, 103: 0, 104: 0, 105: 0, 106: 1, 107: 1, 108: 1, 109: 0, 110: 1, 111: 0, 112: 1, 113: 0, 114: 1, 115: 0, 116: 0, 117: 0, 118: 1, 119: 0, 120: 0, 121: 0, 122: 0, 123: 1, 124: 0, 125: 0, 126: 0, 127: 0, 128: 0, 129: 0, 130: 0, 131: 0, 132: 0, 133: 0, 134: 0, 135: 0, 136: 0, 137: 0, 138: 1, 139: 0, 140: 0, 141: 0, 142: 1, 143: 0, 144: 0, 145: 0, 146: 0, 147: 0, 148: 0, 149: 0, 150: 1, 151: 0, 152: 0, 153: 0, 154: 0, 155: 0, 156: 0, 157: 0, 158: 0, 159: 0, 160: 0, 161: 0, 162: 0, 163: 0, 164: 0, 165: 0, 166: 0, 167: 0, 168: 0, 169: 0, 170: 0, 171: 0, 172: 0, 173: 0, 174: 0, 175: 0, 176: 0, 177: 0, 178: 0, 179: 0, 180: 0, 181: 0, 182: 0, 183: 0, 184: 0, 185: 0, 186: 0, 187: 0, 188: 0, 189: 0, 190: 0, 191: 0, 192: 0, 193: 0, 194: 0, 195: 0, 196: 0, 197: 1, 198: 0, 199: 1, 200: 0, 201: 0, 202: 0, 203: 0, 204: 0, 205: 0, 206: 0, 207: 0, 208: 0, 209: 0, 210: 0, 211: 0, 212: 0, 213: 0, 214: 0, 215: 0, 216: 0, 217: 0, 218: 0, 219: 0, 220: 0, 221: 0, 222: 0, 223: 0, 224: 0, 225: 0, 226: 0, 227: 0, 228: 0, 229: 0, 230: 0, 231: 0, 232: 0, 233: 0, 234: 0, 235: 0, 236: 0, 237: 0, 238: 0, 239: 1, 240: 0, 241: 0, 242: 0, 243: 0, 244: 0, 245: 0, 246: 0, 247: 0, 248: 0, 249: 0, 250: 0, 251: 0, 252: 0, 253: 0, 254: 0, 255: 0, 256: 0, 257: 0, 258: 0, 259: 0, 260: 0, 261: 0, 262: 0, 263: 0, 264: 0, 265: 0, 266: 0, 267: 0, 268: 0, 269: 0, 270: 0, 271: 0, 272: 0, 273: 0, 274: 0, 275: 0, 276: 0, 277: 0, 278: 0, 279: 0, 280: 0, 281: 0, 282: 0, 283: 0, 284: 0, 285: 0, 286: 0, 287: 0, 288: 0, 289: 0, 290: 0, 291: 0, 292: 0, 293: 0, 294: 0, 295: 0, 296: 0, 297: 0, 298: 0, 299: 0, 300: 0, 301: 0, 302: 0, 303: 0, 304: 0, 305: 0, 306: 0, 307: 0, 308: 0, 309: 0, 310: 0, 311: 0, 312: 0, 313: 0, 314: 0, 315: 0, 316: 0, 317: 0, 318: 0, 319: 0, 320: 0, 321: 1, 322: 0, 323: 0, 324: 0, 325: 0, 326: 0, 327: 1, 328: 0, 329: 0, 330: 0, 331: 0, 332: 0, 333: 0, 334: 0, 335: 0, 336: 0, 337: 0, 338: 0, 339: 0, 340: 0, 341: 0, 342: 0, 343: 0, 344: 0, 345: 0, 346: 0, 347: 0, 348: 0, 349: 0, 350: 0, 351: 0, 352: 0, 353: 0, 354: 0, 355: 0, 356: 0, 357: 0, 358: 0, 359: 0, 360: 0, 361: 0, 362: 0, 363: 0, 364: 0, 365: 0, 366: 0, 367: 0, 368: 0, 369: 0, 370: 0, 371: 0, 372: 0, 373: 0, 374: 0, 375: 0, 376: 0, 377: 0, 378: 0, 379: 0, 380: 0, 381: 0, 382: 0, 383: 1, 384: 0, 385: 0, 386: 0, 387: 0, 388: 0, 389: 0, 390: 1, 391: 0, 392: 0, 393: 0, 394: 0, 395: 0, 396: 1, 397: 0, 398: 0, 399: 0, 400: 0, 401: 0, 402: 0, 403: 0, 404: 1, 405: 0, 406: 0, 407: 0, 408: 0, 409: 0, 410: 0, 411: 0, 412: 1, 413: 1},
+y_train = torch.Size([]),
+out_encoder = torch.Size([1, 201]),
+
+
+
+
+Namespace(file='data/minichess/config', output='data/minichess/results01', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+
+
+Shapes:
+X_train = {0: 0, 1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0, 7: 1, 8: 1, 9: 1, 10: 0, 11: 0, 12: 0, 13: 0, 14: 0, 15: 0, 16: 1, 17: 1, 18: 0, 19: 0, 20: 0, 21: 1, 22: 1, 23: 1, 24: 0, 25: 0, 26: 0, 27: 0, 28: 0, 29: 0, 30: 1, 31: 0, 32: 0, 33: 0, 34: 0, 35: 0, 36: 0, 37: 0, 38: 0, 39: 0, 40: 0, 41: 0, 42: 0, 43: 0, 44: 0, 45: 0, 46: 0, 47: 0, 48: 0, 49: 0, 50: 0, 51: 0, 52: 1, 53: 0, 54: 0, 55: 0, 56: 0, 57: 0, 58: 0, 59: 0, 60: 0, 61: 0, 62: 1, 63: 0, 64: 0, 65: 1, 66: 0, 67: 0, 68: 0, 69: 0, 70: 0, 71: 1, 72: 0, 73: 0, 74: 0, 75: 0, 76: 0, 77: 0, 78: 0, 79: 1, 80: 0, 81: 0, 82: 0, 83: 1, 84: 1, 85: 0, 86: 0, 87: 0, 88: 0, 89: 0, 90: 0, 91: 0, 92: 0, 93: 0, 94: 1, 95: 1, 96: 0, 97: 0, 98: 0, 99: 0, 100: 0, 101: 0, 102: 0, 103: 0, 104: 0, 105: 0, 106: 1, 107: 1, 108: 1, 109: 0, 110: 1, 111: 0, 112: 1, 113: 0, 114: 1, 115: 0, 116: 0, 117: 0, 118: 1, 119: 0, 120: 0, 121: 0, 122: 0, 123: 1, 124: 0, 125: 0, 126: 0, 127: 0, 128: 0, 129: 0, 130: 0, 131: 0, 132: 0, 133: 0, 134: 0, 135: 0, 136: 0, 137: 0, 138: 1, 139: 0, 140: 0, 141: 0, 142: 1, 143: 0, 144: 0, 145: 0, 146: 0, 147: 0, 148: 0, 149: 0, 150: 1, 151: 0, 152: 0, 153: 0, 154: 0, 155: 0, 156: 0, 157: 0, 158: 0, 159: 0, 160: 0, 161: 0, 162: 0, 163: 0, 164: 0, 165: 0, 166: 0, 167: 0, 168: 0, 169: 0, 170: 0, 171: 0, 172: 0, 173: 0, 174: 0, 175: 0, 176: 0, 177: 0, 178: 0, 179: 0, 180: 0, 181: 0, 182: 0, 183: 0, 184: 0, 185: 0, 186: 0, 187: 0, 188: 0, 189: 0, 190: 0, 191: 0, 192: 0, 193: 0, 194: 0, 195: 0, 196: 0, 197: 1, 198: 0, 199: 1, 200: 0, 201: 0, 202: 0, 203: 0, 204: 0, 205: 0, 206: 0, 207: 0, 208: 0, 209: 0, 210: 0, 211: 0, 212: 0, 213: 0, 214: 0, 215: 0, 216: 0, 217: 0, 218: 0, 219: 0, 220: 0, 221: 0, 222: 0, 223: 0, 224: 0, 225: 0, 226: 0, 227: 0, 228: 0, 229: 0, 230: 0, 231: 0, 232: 0, 233: 0, 234: 0, 235: 0, 236: 0, 237: 0, 238: 0, 239: 1, 240: 0, 241: 0, 242: 0, 243: 0, 244: 0, 245: 0, 246: 0, 247: 0, 248: 0, 249: 0, 250: 0, 251: 0, 252: 0, 253: 0, 254: 0, 255: 0, 256: 0, 257: 0, 258: 0, 259: 0, 260: 0, 261: 0, 262: 0, 263: 0, 264: 0, 265: 0, 266: 0, 267: 0, 268: 0, 269: 0, 270: 0, 271: 0, 272: 0, 273: 0, 274: 0, 275: 0, 276: 0, 277: 0, 278: 0, 279: 0, 280: 0, 281: 0, 282: 0, 283: 0, 284: 0, 285: 0, 286: 0, 287: 0, 288: 0, 289: 0, 290: 0, 291: 0, 292: 0, 293: 0, 294: 0, 295: 0, 296: 0, 297: 0, 298: 0, 299: 0, 300: 0, 301: 0, 302: 0, 303: 0, 304: 0, 305: 0, 306: 0, 307: 0, 308: 0, 309: 0, 310: 0, 311: 0, 312: 0, 313: 0, 314: 0, 315: 0, 316: 0, 317: 0, 318: 0, 319: 0, 320: 0, 321: 1, 322: 0, 323: 0, 324: 0, 325: 0, 326: 0, 327: 1, 328: 0, 329: 0, 330: 0, 331: 0, 332: 0, 333: 0, 334: 0, 335: 0, 336: 0, 337: 0, 338: 0, 339: 0, 340: 0, 341: 0, 342: 0, 343: 0, 344: 0, 345: 0, 346: 0, 347: 0, 348: 0, 349: 0, 350: 0, 351: 0, 352: 0, 353: 0, 354: 0, 355: 0, 356: 0, 357: 0, 358: 0, 359: 0, 360: 0, 361: 0, 362: 0, 363: 0, 364: 0, 365: 0, 366: 0, 367: 0, 368: 0, 369: 0, 370: 0, 371: 0, 372: 0, 373: 0, 374: 0, 375: 0, 376: 0, 377: 0, 378: 0, 379: 0, 380: 0, 381: 0, 382: 0, 383: 1, 384: 0, 385: 0, 386: 0, 387: 0, 388: 0, 389: 0, 390: 1, 391: 0, 392: 0, 393: 0, 394: 0, 395: 0, 396: 1, 397: 0, 398: 0, 399: 0, 400: 0, 401: 0, 402: 0, 403: 0, 404: 1, 405: 0, 406: 0, 407: 0, 408: 0, 409: 0, 410: 0, 411: 0, 412: 1, 413: 1},
+y_train = 1,
+out_encoder = torch.Size([1, 201]),
+
+Model layers:
+ l1: Sequential(
+  (0): Linear(in_features=2, out_features=2, bias=True)
+  (1): Linear(in_features=2, out_features=414, bias=True)
+)
+
+
+
+Namespace(file='data/minichess/config', output='data/minichess/results01', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+
+
+Shapes:
+X_train = {0: 0, 1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0, 7: 1, 8: 1, 9: 1, 10: 0, 11: 0, 12: 0, 13: 0, 14: 0, 15: 0, 16: 1, 17: 1, 18: 0, 19: 0, 20: 0, 21: 1, 22: 1, 23: 1, 24: 0, 25: 0, 26: 0, 27: 0, 28: 0, 29: 0, 30: 1, 31: 0, 32: 0, 33: 0, 34: 0, 35: 0, 36: 0, 37: 0, 38: 0, 39: 0, 40: 0, 41: 0, 42: 0, 43: 0, 44: 0, 45: 0, 46: 0, 47: 0, 48: 0, 49: 0, 50: 0, 51: 0, 52: 1, 53: 0, 54: 0, 55: 0, 56: 0, 57: 0, 58: 0, 59: 0, 60: 0, 61: 0, 62: 1, 63: 0, 64: 0, 65: 1, 66: 0, 67: 0, 68: 0, 69: 0, 70: 0, 71: 1, 72: 0, 73: 0, 74: 0, 75: 0, 76: 0, 77: 0, 78: 0, 79: 1, 80: 0, 81: 0, 82: 0, 83: 1, 84: 1, 85: 0, 86: 0, 87: 0, 88: 0, 89: 0, 90: 0, 91: 0, 92: 0, 93: 0, 94: 1, 95: 1, 96: 0, 97: 0, 98: 0, 99: 0, 100: 0, 101: 0, 102: 0, 103: 0, 104: 0, 105: 0, 106: 1, 107: 1, 108: 1, 109: 0, 110: 1, 111: 0, 112: 1, 113: 0, 114: 1, 115: 0, 116: 0, 117: 0, 118: 1, 119: 0, 120: 0, 121: 0, 122: 0, 123: 1, 124: 0, 125: 0, 126: 0, 127: 0, 128: 0, 129: 0, 130: 0, 131: 0, 132: 0, 133: 0, 134: 0, 135: 0, 136: 0, 137: 0, 138: 1, 139: 0, 140: 0, 141: 0, 142: 1, 143: 0, 144: 0, 145: 0, 146: 0, 147: 0, 148: 0, 149: 0, 150: 1, 151: 0, 152: 0, 153: 0, 154: 0, 155: 0, 156: 0, 157: 0, 158: 0, 159: 0, 160: 0, 161: 0, 162: 0, 163: 0, 164: 0, 165: 0, 166: 0, 167: 0, 168: 0, 169: 0, 170: 0, 171: 0, 172: 0, 173: 0, 174: 0, 175: 0, 176: 0, 177: 0, 178: 0, 179: 0, 180: 0, 181: 0, 182: 0, 183: 0, 184: 0, 185: 0, 186: 0, 187: 0, 188: 0, 189: 0, 190: 0, 191: 0, 192: 0, 193: 0, 194: 0, 195: 0, 196: 0, 197: 1, 198: 0, 199: 1, 200: 0, 201: 0, 202: 0, 203: 0, 204: 0, 205: 0, 206: 0, 207: 0, 208: 0, 209: 0, 210: 0, 211: 0, 212: 0, 213: 0, 214: 0, 215: 0, 216: 0, 217: 0, 218: 0, 219: 0, 220: 0, 221: 0, 222: 0, 223: 0, 224: 0, 225: 0, 226: 0, 227: 0, 228: 0, 229: 0, 230: 0, 231: 0, 232: 0, 233: 0, 234: 0, 235: 0, 236: 0, 237: 0, 238: 0, 239: 1, 240: 0, 241: 0, 242: 0, 243: 0, 244: 0, 245: 0, 246: 0, 247: 0, 248: 0, 249: 0, 250: 0, 251: 0, 252: 0, 253: 0, 254: 0, 255: 0, 256: 0, 257: 0, 258: 0, 259: 0, 260: 0, 261: 0, 262: 0, 263: 0, 264: 0, 265: 0, 266: 0, 267: 0, 268: 0, 269: 0, 270: 0, 271: 0, 272: 0, 273: 0, 274: 0, 275: 0, 276: 0, 277: 0, 278: 0, 279: 0, 280: 0, 281: 0, 282: 0, 283: 0, 284: 0, 285: 0, 286: 0, 287: 0, 288: 0, 289: 0, 290: 0, 291: 0, 292: 0, 293: 0, 294: 0, 295: 0, 296: 0, 297: 0, 298: 0, 299: 0, 300: 0, 301: 0, 302: 0, 303: 0, 304: 0, 305: 0, 306: 0, 307: 0, 308: 0, 309: 0, 310: 0, 311: 0, 312: 0, 313: 0, 314: 0, 315: 0, 316: 0, 317: 0, 318: 0, 319: 0, 320: 0, 321: 1, 322: 0, 323: 0, 324: 0, 325: 0, 326: 0, 327: 1, 328: 0, 329: 0, 330: 0, 331: 0, 332: 0, 333: 0, 334: 0, 335: 0, 336: 0, 337: 0, 338: 0, 339: 0, 340: 0, 341: 0, 342: 0, 343: 0, 344: 0, 345: 0, 346: 0, 347: 0, 348: 0, 349: 0, 350: 0, 351: 0, 352: 0, 353: 0, 354: 0, 355: 0, 356: 0, 357: 0, 358: 0, 359: 0, 360: 0, 361: 0, 362: 0, 363: 0, 364: 0, 365: 0, 366: 0, 367: 0, 368: 0, 369: 0, 370: 0, 371: 0, 372: 0, 373: 0, 374: 0, 375: 0, 376: 0, 377: 0, 378: 0, 379: 0, 380: 0, 381: 0, 382: 0, 383: 1, 384: 0, 385: 0, 386: 0, 387: 0, 388: 0, 389: 0, 390: 1, 391: 0, 392: 0, 393: 0, 394: 0, 395: 0, 396: 1, 397: 0, 398: 0, 399: 0, 400: 0, 401: 0, 402: 0, 403: 0, 404: 1, 405: 0, 406: 0, 407: 0, 408: 0, 409: 0, 410: 0, 411: 0, 412: 1, 413: 1},
+y_train = 1,
+out_encoder = torch.Size([1, 201]),
+
+Model layers:
+ l1: Sequential(
+  (0): Linear(in_features=2, out_features=2, bias=True)
+  (1): Linear(in_features=2, out_features=414, bias=True)
+)
+
+[412, 413]
+
+Namespace(file='data/minichess/config', output='data/minichess/results01', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+
+
+Shapes:
+X_train = {0: 0, 1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0, 7: 1, 8: 1, 9: 1, 10: 0, 11: 0, 12: 0, 13: 0, 14: 0, 15: 0, 16: 1, 17: 1, 18: 0, 19: 0, 20: 0, 21: 1, 22: 1, 23: 1, 24: 0, 25: 0, 26: 0, 27: 0, 28: 0, 29: 0, 30: 1, 31: 0, 32: 0, 33: 0, 34: 0, 35: 0, 36: 0, 37: 0, 38: 0, 39: 0, 40: 0, 41: 0, 42: 0, 43: 0, 44: 0, 45: 0, 46: 0, 47: 0, 48: 0, 49: 0, 50: 0, 51: 0, 52: 1, 53: 0, 54: 0, 55: 0, 56: 0, 57: 0, 58: 0, 59: 0, 60: 0, 61: 0, 62: 1, 63: 0, 64: 0, 65: 1, 66: 0, 67: 0, 68: 0, 69: 0, 70: 0, 71: 1, 72: 0, 73: 0, 74: 0, 75: 0, 76: 0, 77: 0, 78: 0, 79: 1, 80: 0, 81: 0, 82: 0, 83: 1, 84: 1, 85: 0, 86: 0, 87: 0, 88: 0, 89: 0, 90: 0, 91: 0, 92: 0, 93: 0, 94: 1, 95: 1, 96: 0, 97: 0, 98: 0, 99: 0, 100: 0, 101: 0, 102: 0, 103: 0, 104: 0, 105: 0, 106: 1, 107: 1, 108: 1, 109: 0, 110: 1, 111: 0, 112: 1, 113: 0, 114: 1, 115: 0, 116: 0, 117: 0, 118: 1, 119: 0, 120: 0, 121: 0, 122: 0, 123: 1, 124: 0, 125: 0, 126: 0, 127: 0, 128: 0, 129: 0, 130: 0, 131: 0, 132: 0, 133: 0, 134: 0, 135: 0, 136: 0, 137: 0, 138: 1, 139: 0, 140: 0, 141: 0, 142: 1, 143: 0, 144: 0, 145: 0, 146: 0, 147: 0, 148: 0, 149: 0, 150: 1, 151: 0, 152: 0, 153: 0, 154: 0, 155: 0, 156: 0, 157: 0, 158: 0, 159: 0, 160: 0, 161: 0, 162: 0, 163: 0, 164: 0, 165: 0, 166: 0, 167: 0, 168: 0, 169: 0, 170: 0, 171: 0, 172: 0, 173: 0, 174: 0, 175: 0, 176: 0, 177: 0, 178: 0, 179: 0, 180: 0, 181: 0, 182: 0, 183: 0, 184: 0, 185: 0, 186: 0, 187: 0, 188: 0, 189: 0, 190: 0, 191: 0, 192: 0, 193: 0, 194: 0, 195: 0, 196: 0, 197: 1, 198: 0, 199: 1, 200: 0, 201: 0, 202: 0, 203: 0, 204: 0, 205: 0, 206: 0, 207: 0, 208: 0, 209: 0, 210: 0, 211: 0, 212: 0, 213: 0, 214: 0, 215: 0, 216: 0, 217: 0, 218: 0, 219: 0, 220: 0, 221: 0, 222: 0, 223: 0, 224: 0, 225: 0, 226: 0, 227: 0, 228: 0, 229: 0, 230: 0, 231: 0, 232: 0, 233: 0, 234: 0, 235: 0, 236: 0, 237: 0, 238: 0, 239: 1, 240: 0, 241: 0, 242: 0, 243: 0, 244: 0, 245: 0, 246: 0, 247: 0, 248: 0, 249: 0, 250: 0, 251: 0, 252: 0, 253: 0, 254: 0, 255: 0, 256: 0, 257: 0, 258: 0, 259: 0, 260: 0, 261: 0, 262: 0, 263: 0, 264: 0, 265: 0, 266: 0, 267: 0, 268: 0, 269: 0, 270: 0, 271: 0, 272: 0, 273: 0, 274: 0, 275: 0, 276: 0, 277: 0, 278: 0, 279: 0, 280: 0, 281: 0, 282: 0, 283: 0, 284: 0, 285: 0, 286: 0, 287: 0, 288: 0, 289: 0, 290: 0, 291: 0, 292: 0, 293: 0, 294: 0, 295: 0, 296: 0, 297: 0, 298: 0, 299: 0, 300: 0, 301: 0, 302: 0, 303: 0, 304: 0, 305: 0, 306: 0, 307: 0, 308: 0, 309: 0, 310: 0, 311: 0, 312: 0, 313: 0, 314: 0, 315: 0, 316: 0, 317: 0, 318: 0, 319: 0, 320: 0, 321: 1, 322: 0, 323: 0, 324: 0, 325: 0, 326: 0, 327: 1, 328: 0, 329: 0, 330: 0, 331: 0, 332: 0, 333: 0, 334: 0, 335: 0, 336: 0, 337: 0, 338: 0, 339: 0, 340: 0, 341: 0, 342: 0, 343: 0, 344: 0, 345: 0, 346: 0, 347: 0, 348: 0, 349: 0, 350: 0, 351: 0, 352: 0, 353: 0, 354: 0, 355: 0, 356: 0, 357: 0, 358: 0, 359: 0, 360: 0, 361: 0, 362: 0, 363: 0, 364: 0, 365: 0, 366: 0, 367: 0, 368: 0, 369: 0, 370: 0, 371: 0, 372: 0, 373: 0, 374: 0, 375: 0, 376: 0, 377: 0, 378: 0, 379: 0, 380: 0, 381: 0, 382: 0, 383: 1, 384: 0, 385: 0, 386: 0, 387: 0, 388: 0, 389: 0, 390: 1, 391: 0, 392: 0, 393: 0, 394: 0, 395: 0, 396: 1, 397: 0, 398: 0, 399: 0, 400: 0, 401: 0, 402: 0, 403: 0, 404: 1, 405: 0, 406: 0, 407: 0, 408: 0, 409: 0, 410: 0, 411: 0, 412: 1, 413: 1},
+y_train = 1,
+out_encoder = torch.Size([1, 201]),
+
+Model layers:
+ l1: Sequential(
+  (0): Linear(in_features=201, out_features=201, bias=True)
+  (1): Linear(in_features=201, out_features=414, bias=True)
+)
+
+[412, 413]
+
+Namespace(file='data/minichess/config', output='data/minichess/results01', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+
+
+Shapes:
+X_train = {0: 0, 1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0, 7: 1, 8: 1, 9: 1, 10: 0, 11: 0, 12: 0, 13: 0, 14: 0, 15: 0, 16: 1, 17: 1, 18: 0, 19: 0, 20: 0, 21: 1, 22: 1, 23: 1, 24: 0, 25: 0, 26: 0, 27: 0, 28: 0, 29: 0, 30: 1, 31: 0, 32: 0, 33: 0, 34: 0, 35: 0, 36: 0, 37: 0, 38: 0, 39: 0, 40: 0, 41: 0, 42: 0, 43: 0, 44: 0, 45: 0, 46: 0, 47: 0, 48: 0, 49: 0, 50: 0, 51: 0, 52: 1, 53: 0, 54: 0, 55: 0, 56: 0, 57: 0, 58: 0, 59: 0, 60: 0, 61: 0, 62: 1, 63: 0, 64: 0, 65: 1, 66: 0, 67: 0, 68: 0, 69: 0, 70: 0, 71: 1, 72: 0, 73: 0, 74: 0, 75: 0, 76: 0, 77: 0, 78: 0, 79: 1, 80: 0, 81: 0, 82: 0, 83: 1, 84: 1, 85: 0, 86: 0, 87: 0, 88: 0, 89: 0, 90: 0, 91: 0, 92: 0, 93: 0, 94: 1, 95: 1, 96: 0, 97: 0, 98: 0, 99: 0, 100: 0, 101: 0, 102: 0, 103: 0, 104: 0, 105: 0, 106: 1, 107: 1, 108: 1, 109: 0, 110: 1, 111: 0, 112: 1, 113: 0, 114: 1, 115: 0, 116: 0, 117: 0, 118: 1, 119: 0, 120: 0, 121: 0, 122: 0, 123: 1, 124: 0, 125: 0, 126: 0, 127: 0, 128: 0, 129: 0, 130: 0, 131: 0, 132: 0, 133: 0, 134: 0, 135: 0, 136: 0, 137: 0, 138: 1, 139: 0, 140: 0, 141: 0, 142: 1, 143: 0, 144: 0, 145: 0, 146: 0, 147: 0, 148: 0, 149: 0, 150: 1, 151: 0, 152: 0, 153: 0, 154: 0, 155: 0, 156: 0, 157: 0, 158: 0, 159: 0, 160: 0, 161: 0, 162: 0, 163: 0, 164: 0, 165: 0, 166: 0, 167: 0, 168: 0, 169: 0, 170: 0, 171: 0, 172: 0, 173: 0, 174: 0, 175: 0, 176: 0, 177: 0, 178: 0, 179: 0, 180: 0, 181: 0, 182: 0, 183: 0, 184: 0, 185: 0, 186: 0, 187: 0, 188: 0, 189: 0, 190: 0, 191: 0, 192: 0, 193: 0, 194: 0, 195: 0, 196: 0, 197: 1, 198: 0, 199: 1, 200: 0, 201: 0, 202: 0, 203: 0, 204: 0, 205: 0, 206: 0, 207: 0, 208: 0, 209: 0, 210: 0, 211: 0, 212: 0, 213: 0, 214: 0, 215: 0, 216: 0, 217: 0, 218: 0, 219: 0, 220: 0, 221: 0, 222: 0, 223: 0, 224: 0, 225: 0, 226: 0, 227: 0, 228: 0, 229: 0, 230: 0, 231: 0, 232: 0, 233: 0, 234: 0, 235: 0, 236: 0, 237: 0, 238: 0, 239: 1, 240: 0, 241: 0, 242: 0, 243: 0, 244: 0, 245: 0, 246: 0, 247: 0, 248: 0, 249: 0, 250: 0, 251: 0, 252: 0, 253: 0, 254: 0, 255: 0, 256: 0, 257: 0, 258: 0, 259: 0, 260: 0, 261: 0, 262: 0, 263: 0, 264: 0, 265: 0, 266: 0, 267: 0, 268: 0, 269: 0, 270: 0, 271: 0, 272: 0, 273: 0, 274: 0, 275: 0, 276: 0, 277: 0, 278: 0, 279: 0, 280: 0, 281: 0, 282: 0, 283: 0, 284: 0, 285: 0, 286: 0, 287: 0, 288: 0, 289: 0, 290: 0, 291: 0, 292: 0, 293: 0, 294: 0, 295: 0, 296: 0, 297: 0, 298: 0, 299: 0, 300: 0, 301: 0, 302: 0, 303: 0, 304: 0, 305: 0, 306: 0, 307: 0, 308: 0, 309: 0, 310: 0, 311: 0, 312: 0, 313: 0, 314: 0, 315: 0, 316: 0, 317: 0, 318: 0, 319: 0, 320: 0, 321: 1, 322: 0, 323: 0, 324: 0, 325: 0, 326: 0, 327: 1, 328: 0, 329: 0, 330: 0, 331: 0, 332: 0, 333: 0, 334: 0, 335: 0, 336: 0, 337: 0, 338: 0, 339: 0, 340: 0, 341: 0, 342: 0, 343: 0, 344: 0, 345: 0, 346: 0, 347: 0, 348: 0, 349: 0, 350: 0, 351: 0, 352: 0, 353: 0, 354: 0, 355: 0, 356: 0, 357: 0, 358: 0, 359: 0, 360: 0, 361: 0, 362: 0, 363: 0, 364: 0, 365: 0, 366: 0, 367: 0, 368: 0, 369: 0, 370: 0, 371: 0, 372: 0, 373: 0, 374: 0, 375: 0, 376: 0, 377: 0, 378: 0, 379: 0, 380: 0, 381: 0, 382: 0, 383: 1, 384: 0, 385: 0, 386: 0, 387: 0, 388: 0, 389: 0, 390: 1, 391: 0, 392: 0, 393: 0, 394: 0, 395: 0, 396: 1, 397: 0, 398: 0, 399: 0, 400: 0, 401: 0, 402: 0, 403: 0, 404: 1, 405: 0, 406: 0, 407: 0, 408: 0, 409: 0, 410: 0, 411: 0, 412: 1, 413: 1},
+y_train = 1,
+out_encoder = torch.Size([1, 201]),
+
+Model layers:
+ l1: Sequential(
+  (0): Linear(in_features=201, out_features=201, bias=True)
+  (1): Linear(in_features=201, out_features=414, bias=True)
+)
+
+[412, 413]
+
+Namespace(file='data/minichess/config', output='data/minichess/results01', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Namespace(file='data/minichess/config', output='data/minichess/results01', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Namespace(file='data/minichess/config', output='data/minichess/results01', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Namespace(file='data/minichess/config', output='data/minichess/results01', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Namespace(file='data/minichess/config', output='data/minichess/results01', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Epoch 0
+Train loss: 0.10127361863851547
+Train acc: 0.1875
+Val loss: 0.4905266073765233
+Val acc: 0.0
+-------------------------------------
+Epoch 1
+Train loss: 0.12889966368675232
+Train acc: 0.1875
+Val loss: 0.49052647419739515
+Val acc: 0.0
+-------------------------------------
+***Train Metrics***
+              precision    recall  f1-score   support
+
+           0     0.6000    0.3750    0.4615         8
+           1     1.0000    0.0000    0.0000         8
+          26     0.0000    1.0000    0.0000         0
+         107     0.0000    1.0000    0.0000         0
+         115     0.0000    1.0000    0.0000         0
+         120     0.0000    1.0000    0.0000         0
+         132     0.0000    1.0000    0.0000         0
+         162     0.0000    1.0000    0.0000         0
+         186     0.0000    1.0000    0.0000         0
+         188     0.0000    1.0000    0.0000         0
+
+    accuracy                         0.1875        16
+   macro avg     0.1600    0.8375    0.0462        16
+weighted avg     0.8000    0.1875    0.2308        16
+
+-------------------------------------
+***Test Metrics***
+              precision    recall  f1-score   support
+
+           0     1.0000    0.2000    0.3333         5
+           1     1.0000    0.0000    0.0000         5
+          35     0.0000    1.0000    0.0000         0
+          67     0.0000    1.0000    0.0000         0
+         157     0.0000    1.0000    0.0000         0
+         162     0.0000    1.0000    0.0000         0
+         175     0.0000    1.0000    0.0000         0
+         177     0.0000    1.0000    0.0000         0
+         183     0.0000    1.0000    0.0000         0
+         188     0.0000    1.0000    0.0000         0
+
+    accuracy                         0.1000        10
+   macro avg     0.2000    0.8200    0.0333        10
+weighted avg     1.0000    0.1000    0.1667        10
+
+-------------------------------------
+              precision    recall  f1-score   support
+
+           0     1.0000    0.0000    0.0000       5.0
+          98     0.0000    1.0000    0.0000       0.0
+
+    accuracy                         0.0000       5.0
+   macro avg     0.5000    0.5000    0.0000       5.0
+weighted avg     1.0000    0.0000    0.0000       5.0
+
+-------------------------------------
+              precision    recall  f1-score   support
+
+           0     1.0000    0.0000    0.0000       5.0
+         119     0.0000    1.0000    0.0000       0.0
+         174     0.0000    1.0000    0.0000       0.0
+
+    accuracy                         0.0000       5.0
+   macro avg     0.3333    0.6667    0.0000       5.0
+weighted avg     1.0000    0.0000    0.0000       5.0
+
+-------------------------------------
+***Generating explanations for the test set***
+Explaining 10 test instances::
+Instance: y,y_pred,tp_count,fn_count,tn_count,fp_count,Top-1_neurons,cep_count,cen_count,iep_count,ien_count
+Inst 0: 1,67,0,1,0,0,[243],0,0,1,0
+	Ancestors of [243]: [243, 27, 10, 15]
+	Top-5 neurons in each CRM layer (ordered by relevance, descending):
+		L3: [(100.0, 412), (0, 413)]
+		L2: [(7.9898, 243), (7.6972, 168), (7.1095, 377), (5.7653, 219), (5.0085, 190)]
+		L1: [(16.8425, 116), (13.7551, 27), (9.2872, 60), (8.9558, 410), (7.6972, 76)]
+		L0: [(25.5029, 0), (19.6287, 11), (17.2688, 10), (13.0888, 15), (12.7251, 14)]
+Inst 1: 1,157,0,2,0,0,[357],0,0,2,0
+	Ancestors of [357]: [357, 74, 11, 17]
+	Top-5 neurons in each CRM layer (ordered by relevance, descending):
+		L3: [(100.0, 412), (0, 413)]
+		L2: [(7.7162, 357), (4.8822, 352), (1.2169, 273), (0.0, 411), (0.0, 409)]
+		L1: [(14.6434, 58), (13.6125, 60), (13.1267, 410), (10.2132, 372), (8.9331, 74)]
+		L0: [(36.1885, 11), (19.863, 0), (12.1994, 13), (10.228, 17), (9.3685, 12)]
+Inst 2: 1,175,0,3,0,0,[375],0,0,3,0
+	Ancestors of [375]: [375, 84, 9, 16]
+	Top-5 neurons in each CRM layer (ordered by relevance, descending):
+		L3: [(100.0, 412), (0, 413)]
+		L2: [(7.4607, 375), (3.9074, 386), (0.1738, 384), (0.0, 411), (0.0, 409)]
+		L1: [(11.8914, 142), (7.4607, 84), (6.6653, 393), (6.5709, 155), (6.1688, 232)]
+		L0: [(22.6337, 19), (13.7039, 7), (12.2561, 9), (11.5441, 16), (11.1568, 0)]
+Inst 3: 1,177,0,4,0,0,[375],0,0,4,0
+	Ancestors of [375]: [375, 84, 9, 16]
+	Top-5 neurons in each CRM layer (ordered by relevance, descending):
+		L3: [(100.0, 412), (0, 413)]
+		L2: [(6.471, 375), (5.0541, 377), (3.389, 386), (2.6125, 270), (2.492, 241)]
+		L1: [(11.4592, 116), (10.3139, 142), (9.8871, 140), (6.471, 84), (5.7811, 393)]
+		L0: [(24.8719, 19), (17.2196, 0), (11.886, 7), (9.551, 15), (9.2418, 16)]
+Inst 4: 1,183,0,5,0,0,[386],0,0,5,0
+	Ancestors of [386]: [386, 107, 9, 22]
+	Top-5 neurons in each CRM layer (ordered by relevance, descending):
+		L3: [(100.0, 412), (0, 413)]
+		L2: [(7.8544, 386), (7.4632, 236), (7.3336, 303), (0.0, 411), (0.0, 409)]
+		L1: [(11.4803, 372), (10.2484, 65), (9.8043, 204), (9.4147, 371), (8.9245, 106)]
+		L0: [(22.3273, 0), (16.9156, 7), (12.7029, 17), (11.7458, 22), (10.044, 9)]
+Inst 5: 0,188,0,5,0,1,[394],0,1,5,0
+	Ancestors of [394]: [394, 129, 8, 11]
+	Top-5 neurons in each CRM layer (ordered by relevance, descending):
+		L3: [(100.0, 412), (0, 413)]
+		L2: [(15.4186, 394), (0.0, 411), (0.0, 409), (0.0, 408), (0.0, 407)]
+		L1: [(16.7213, 123), (15.4186, 129), (12.7176, 60), (12.2638, 410), (8.834, 159)]
+		L0: [(27.6402, 8), (26.4293, 11), (11.9127, 23), (11.5312, 15), (11.3247, 14)]
+Inst 6: 0,0,0,5,1,1,[411],0,2,5,0
+	Ancestors of [411]: [411, 102, 10, 18]
+	Top-5 neurons in each CRM layer (ordered by relevance, descending):
+		L3: [(100.0, 412), (0, 413)]
+		L2: [(0.0, 411), (0.0, 409), (0.0, 408), (0.0, 407), (0.0, 406)]
+		L1: [(16.2497, 142), (15.5773, 140), (9.1082, 393), (8.4297, 232), (8.2883, 283)]
+		L0: [(39.186, 19), (15.6269, 7), (13.8498, 15), (11.7396, 16), (9.2627, 14)]
+Inst 7: 0,35,0,5,1,2,[207],0,3,5,0
+	Ancestors of [207]: [207, 130, 5, 14]
+	Top-5 neurons in each CRM layer (ordered by relevance, descending):
+		L3: [(100.0, 412), (0, 413)]
+		L2: [(10.0683, 207), (0.6792, 217), (0.0, 411), (0.0, 409), (0.0, 408)]
+		L1: [(17.0006, 142), (14.3087, 123), (12.933, 147), (10.0683, 130), (7.4201, 79)]
+		L0: [(22.4647, 5), (19.3485, 7), (14.453, 8), (12.1636, 14), (9.4117, 23)]
+Inst 8: 0,162,0,5,1,3,[357],0,4,5,0
+	Ancestors of [357]: [357, 74, 11, 17]
+	Top-5 neurons in each CRM layer (ordered by relevance, descending):
+		L3: [(100.0, 412), (0, 413)]
+		L2: [(7.5173, 357), (0.0, 411), (0.0, 409), (0.0, 408), (0.0, 407)]
+		L1: [(23.7988, 97), (20.717, 142), (12.7884, 410), (8.3656, 315), (8.332, 112)]
+		L0: [(23.0728, 7), (20.1459, 11), (15.1946, 16), (11.9725, 20), (11.8263, 6)]
+Inst 9: 0,188,0,5,1,4,[394],0,5,5,0
+	Ancestors of [394]: [394, 129, 8, 11]
+	Top-5 neurons in each CRM layer (ordered by relevance, descending):
+		L3: [(100.0, 412), (0, 413)]
+		L2: [(15.44, 394), (7.9058, 219), (5.1499, 355), (4.7258, 171), (3.5449, 400)]
+		L1: [(20.1657, 129), (12.7352, 60), (12.2808, 410), (8.3719, 143), (8.0335, 315)]
+		L0: [(32.593, 11), (25.1381, 8), (11.7979, 15), (11.3404, 14), (8.6574, 10)]
+
+-------------------------------------
+Explanation statistics:
+-------------------------------------
+TP: 0
+FN: 5
+TN: 1
+FP: 4
+CEP: 0
+CEN: 5
+IEP: 5
+IEN: 0
+Accuracy: 0.1, Fidelity: 0.5
+-------------------------------------
+Explaining 5 test instances::
+Instance: y,y_pred,tp_count,fn_count,tn_count,fp_count,Top-1_neurons,cep_count,cen_count,iep_count,ien_count
+Inst 0: 0,98,0,0,0,1,[209],0,1,0,0
+	Ancestors of [209]: [209, 127, 15, 20]
+	Top-5 neurons in each CRM layer (ordered by relevance, descending):
+		L3: [(100.0, 412), (0, 413)]
+		L2: [(6.2805, 209), (5.2318, 208), (4.7159, 166), (3.9475, 285), (3.3544, 377)]
+		L1: [(12.8571, 66), (10.2279, 127), (6.5621, 140), (5.9515, 116), (5.5109, 231)]
+		L0: [(17.5039, 14), (14.7644, 15), (13.8096, 19), (12.6553, 23), (10.337, 20)]
+Inst 1: 0,98,0,0,0,2,[180],0,2,0,0
+	Ancestors of [180]: [180, 48, 1, 19]
+	Top-5 neurons in each CRM layer (ordered by relevance, descending):
+		L3: [(100.0, 412), (0, 413)]
+		L2: [(5.9995, 180), (4.9933, 279), (3.6044, 309), (3.4937, 175), (2.632, 353)]
+		L1: [(20.4621, 33), (10.4546, 157), (7.2905, 393), (6.2468, 372), (5.9995, 48)]
+		L0: [(23.6974, 17), (19.9538, 1), (13.6946, 19), (9.1111, 2), (8.8681, 18)]
+Inst 2: 0,98,0,0,0,3,[209],0,3,0,0
+	Ancestors of [209]: [209, 127, 15, 20]
+	Top-5 neurons in each CRM layer (ordered by relevance, descending):
+		L3: [(100.0, 412), (0, 413)]
+		L2: [(7.6138, 209), (5.7171, 166), (4.7855, 285), (4.0665, 377), (4.0448, 366)]
+		L1: [(15.5865, 66), (12.3992, 127), (7.9551, 140), (7.215, 116), (4.6515, 393)]
+		L0: [(21.2198, 14), (17.8988, 15), (13.9162, 19), (12.5314, 20), (9.0883, 0)]
+Inst 3: 0,98,0,0,0,4,[209],0,4,0,0
+	Ancestors of [209]: [209, 127, 15, 20]
+	Top-5 neurons in each CRM layer (ordered by relevance, descending):
+		L3: [(100.0, 412), (0, 413)]
+		L2: [(7.6138, 209), (5.7171, 166), (4.7855, 285), (4.0665, 377), (4.0448, 366)]
+		L1: [(15.5865, 66), (12.3992, 127), (7.9551, 140), (7.215, 116), (4.6515, 393)]
+		L0: [(21.2198, 14), (17.8988, 15), (13.9162, 19), (12.5314, 20), (9.0883, 0)]
+Inst 4: 0,98,0,0,0,5,[209],0,5,0,0
+	Ancestors of [209]: [209, 127, 15, 20]
+	Top-5 neurons in each CRM layer (ordered by relevance, descending):
+		L3: [(100.0, 412), (0, 413)]
+		L2: [(7.6138, 209), (5.7171, 166), (4.7855, 285), (4.0665, 377), (4.0448, 366)]
+		L1: [(15.5865, 66), (12.3992, 127), (7.9551, 140), (7.215, 116), (4.6515, 393)]
+		L0: [(21.2198, 14), (17.8988, 15), (13.9162, 19), (12.5314, 20), (9.0883, 0)]
+
+-------------------------------------
+Explanation statistics:
+-------------------------------------
+TP: 0
+FN: 0
+TN: 0
+FP: 5
+CEP: 0
+CEN: 5
+IEP: 0
+IEN: 0
+Accuracy: 0.0, Fidelity: 1.0
+-------------------------------------
+Explaining 5 test instances::
+Instance: y,y_pred,tp_count,fn_count,tn_count,fp_count,Top-1_neurons,cep_count,cen_count,iep_count,ien_count
+Inst 0: 0,119,0,0,0,1,[308],0,1,0,0
+	Ancestors of [308]: [308, 107, 9, 22]
+	Top-5 neurons in each CRM layer (ordered by relevance, descending):
+		L3: [(100.0, 412), (0, 413)]
+		L2: [(9.2763, 308), (6.0388, 330), (2.0512, 307), (1.5457, 345), (1.2162, 358)]
+		L1: [(13.9223, 123), (9.2763, 107), (9.1404, 155), (8.4516, 153), (7.6182, 197)]
+		L0: [(17.1751, 21), (16.9831, 23), (15.454, 9), (12.2254, 8), (9.408, 5)]
+Inst 1: 0,174,0,0,0,2,[374],0,2,0,0
+	Ancestors of [374]: [374, 121, 11, 21]
+	Top-5 neurons in each CRM layer (ordered by relevance, descending):
+		L3: [(100.0, 412), (0, 413)]
+		L2: [(6.0961, 374), (5.3029, 284), (3.9966, 317), (2.1826, 355), (1.5229, 185)]
+		L1: [(9.6859, 97), (8.084, 118), (7.8704, 150), (7.619, 121), (6.5467, 88)]
+		L0: [(22.8311, 7), (19.9615, 6), (17.0116, 21), (15.3481, 11), (5.7391, 20)]
+Inst 2: 0,174,0,0,0,3,[374],0,3,0,0
+	Ancestors of [374]: [374, 121, 11, 21]
+	Top-5 neurons in each CRM layer (ordered by relevance, descending):
+		L3: [(100.0, 412), (0, 413)]
+		L2: [(6.0961, 374), (5.3029, 284), (3.9966, 317), (2.1826, 355), (1.5229, 185)]
+		L1: [(9.6859, 97), (8.084, 118), (7.8704, 150), (7.619, 121), (6.5467, 88)]
+		L0: [(22.8311, 7), (19.9615, 6), (17.0116, 21), (15.3481, 11), (5.7391, 20)]
+Inst 3: 0,174,0,0,0,4,[374],0,4,0,0
+	Ancestors of [374]: [374, 121, 11, 21]
+	Top-5 neurons in each CRM layer (ordered by relevance, descending):
+		L3: [(100.0, 412), (0, 413)]
+		L2: [(6.0961, 374), (5.3029, 284), (3.9966, 317), (2.1826, 355), (1.5229, 185)]
+		L1: [(9.6859, 97), (8.084, 118), (7.8704, 150), (7.619, 121), (6.5467, 88)]
+		L0: [(22.8311, 7), (19.9615, 6), (17.0116, 21), (15.3481, 11), (5.7391, 20)]
+Inst 4: 0,174,0,0,0,5,[374],0,5,0,0
+	Ancestors of [374]: [374, 121, 11, 21]
+	Top-5 neurons in each CRM layer (ordered by relevance, descending):
+		L3: [(100.0, 412), (0, 413)]
+		L2: [(6.0961, 374), (5.3029, 284), (3.9966, 317), (2.1826, 355), (1.5229, 185)]
+		L1: [(9.6859, 97), (8.084, 118), (7.8704, 150), (7.619, 121), (6.5467, 88)]
+		L0: [(22.8311, 7), (19.9615, 6), (17.0116, 21), (15.3481, 11), (5.7391, 20)]
+
+-------------------------------------
+Explanation statistics:
+-------------------------------------
+TP: 0
+FN: 0
+TN: 0
+FP: 5
+CEP: 0
+CEN: 5
+IEP: 0
+IEN: 0
+Accuracy: 0.0, Fidelity: 1.0
+-------------------------------------

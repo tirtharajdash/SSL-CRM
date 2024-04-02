@@ -1,0 +1,345 @@
+Namespace(file='data/minichess/config', output='data/minichess/results03', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Namespace(file='data/minichess/config', output='data/minichess/results03', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Namespace(file='data/minichess/config', output='data/minichess/results03', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Namespace(file='data/minichess/config', output='data/minichess/results03', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Namespace(file='data/minichess/config', output='data/minichess/results03', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Namespace(file='data/minichess/config', output='data/minichess/results03', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Namespace(file='data/minichess/config', output='data/minichess/results03', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Namespace(file='data/minichess/config', output='data/minichess/results03', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Namespace(file='data/minichess/config', output='data/minichess/results03', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Namespace(file='data/minichess/config', output='data/minichess/results03', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+None
+
+
+ tensor([[0., 0., 0., 1., 0., 0., 0., 1., 1., 1., 0., 0., 0., 0., 0., 0., 1., 1.,
+         0., 0., 0., 1., 1., 1., 0., 0., 0., 0., 0., 0., 1., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0., 1., 0., 0., 1., 0., 0., 0., 0., 0., 1.,
+         0., 0., 0., 0., 0., 0., 0., 1., 0., 0., 0., 1., 1., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 1., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1., 1.,
+         1., 0., 1., 0., 1., 0., 1., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1., 0., 0., 0., 1., 0.,
+         0., 0., 0., 0., 0., 0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1.,
+         0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1., 0., 0.,
+         0., 0., 0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 1., 0., 0., 0., 0., 0., 0., 1., 0., 0., 0., 0., 0.,
+         1., 0., 0., 0., 0., 0., 0., 0., 1., 0., 0., 0., 0., 0., 0., 0., 1., 1.]])
+Namespace(file='data/minichess/config', output='data/minichess/results03', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+out: None
+
+
+target: tensor([[0., 0., 0., 1., 0., 0., 0., 1., 1., 1., 0., 0., 0., 0., 0., 0., 1., 1.,
+         0., 0., 0., 1., 1., 1., 0., 0., 0., 0., 0., 0., 1., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0., 1., 0., 0., 1., 0., 0., 0., 0., 0., 1.,
+         0., 0., 0., 0., 0., 0., 0., 1., 0., 0., 0., 1., 1., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 1., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1., 1.,
+         1., 0., 1., 0., 1., 0., 1., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1., 0., 0., 0., 1., 0.,
+         0., 0., 0., 0., 0., 0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1.,
+         0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 1., 0., 0.,
+         0., 0., 0., 1., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.,
+         0., 0., 0., 0., 0., 1., 0., 0., 0., 0., 0., 0., 1., 0., 0., 0., 0., 0.,
+         1., 0., 0., 0., 0., 0., 0., 0., 1., 0., 0., 0., 0., 0., 0., 0., 1., 1.]])
+Namespace(file='data/minichess/config', output='data/minichess/results03', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Namespace(file='data/minichess/config', output='data/minichess/results03', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+torch.Size([1, 24]) torch.Size([1, 414])
+Namespace(file='data/minichess/config', output='data/minichess/results03', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Namespace(file='data/minichess/config', output='data/minichess/results03', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Namespace(file='data/minichess/config', output='data/minichess/results03', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Namespace(file='data/minichess/config', output='data/minichess/results03', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Epoch 0
+Train loss: 0.6926899440586567
+Namespace(file='data/minichess/config', output='data/minichess/results03', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Epoch 0
+Train loss: 0.6926899440586567
+-------------------------------------
+Epoch 1
+Train loss: 0.6926782317459583
+-------------------------------------
+Namespace(file='data/minichess/config', output='data/minichess/results03', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Epoch 0
+Train loss: 0.6926899440586567
+-------------------------------------
+Epoch 1
+Train loss: 0.6926782317459583
+-------------------------------------
+***Train Metrics***
+Namespace(file='data/minichess/config', output='data/minichess/results03', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Epoch 0
+Train loss: 0.6926899440586567
+-------------------------------------
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Decoder_fullyconnected()
+Epoch 1
+Train loss: 0.6926782317459583
+-------------------------------------
+***Train Metrics***
+Namespace(file='data/minichess/config', output='data/minichess/results03', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Decoder_fullyconnected()
+Namespace(file='data/minichess/config', output='data/minichess/results03', saved_model=None, num_epochs=2, predict=False, explain=True, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Namespace(file='data/minichess/config', output='data/minichess/results03', saved_model=None, num_epochs=2, predict=False, explain=False, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Epoch 0
+Train loss: 0.6925746873021126
+-------------------------------------
+Epoch 1
+Train loss: 0.692539855837822
+-------------------------------------
+***Train Metrics***

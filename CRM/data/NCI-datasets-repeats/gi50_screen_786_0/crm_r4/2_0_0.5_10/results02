@@ -1,0 +1,56 @@
+Namespace(file='data/NCI-datasets-repeats/gi50_screen_786_0/crm_r4/2_0_0.5_10/config', output='data/NCI-datasets-repeats/gi50_screen_786_0/crm_r4/2_0_0.5_10/results02', saved_model=None, num_epochs=10, predict=False, explain=False, tune=False, verbose=True, gpu=False)
+***Loading data***
+Empty instance ID 113
+Empty instance ID 189
+Empty instance ID 252
+Empty instance ID 276
+Empty instance ID 334
+Empty instance ID 458
+Empty instance ID 464
+Empty instance ID 479
+Empty instance ID 573
+Loaded ./data/NCI-datasets-repeats/gi50_screen_786_0/crm_r4/2_0_0.5_10/rand_crm_d3c3v6r4_test_features_pos file with 577 instances (incl. empty instances).
+Empty instance ID 612
+Empty instance ID 662
+Empty instance ID 692
+Empty instance ID 749
+Empty instance ID 786
+Empty instance ID 790
+Empty instance ID 901
+Empty instance ID 923
+Empty instance ID 924
+Empty instance ID 947
+Empty instance ID 963
+Empty instance ID 1031
+Loaded ./data/NCI-datasets-repeats/gi50_screen_786_0/crm_r4/2_0_0.5_10/rand_crm_d3c3v6r4_test_features_neg file with 475 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Epoch 0
+Train loss: 0.6943489749461381
+Val loss: 0.6940370266501968
+-------------------------------------
+Epoch 1
+Train loss: 0.6942862612151702
+Val loss: 0.6937008529839546
+-------------------------------------
+Epoch 2
+Train loss: 0.6942842736080459
+Val loss: 0.6950507885205275
+-------------------------------------
+Epoch 3
+Train loss: 0.6942835469089611
+Val loss: 0.6934979292806122
+-------------------------------------
+Epoch 4
+Train loss: 0.6942830185302215
+Val loss: 0.6949614516910545
+-------------------------------------
+Epoch 5
+Train loss: 0.6942826914799697
+Val loss: 0.6952562106622232
+-------------------------------------
+Epoch 6
+Train loss: 0.694282492818495
+Val loss: 0.6941281057692863
+-------------------------------------
+Patience exceeded. Stopping training.

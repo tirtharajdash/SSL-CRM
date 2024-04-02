@@ -1,0 +1,18 @@
+Namespace(file='data/minichess/config', output='data/minichess/results04', saved_model=None, num_epochs=2, predict=False, explain=False, tune=False, verbose=True, gpu=False)
+***Loading data***
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_pos file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_1_features_neg file with 5 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_pos file with 0 instances (incl. empty instances).
+Loaded ./data/minichess/raw/rand_crm_d3v6r1_test_2_features_neg file with 5 instances (incl. empty instances).
+***Creating CRM structure***
+***Training CRM***
+Epoch 0
+Train loss: 0.6925746873021126
+Val loss: 0.6975948065519333
+-------------------------------------
+Epoch 1
+Train loss: 0.692539855837822
+Val loss: 0.6941340863704681
+-------------------------------------

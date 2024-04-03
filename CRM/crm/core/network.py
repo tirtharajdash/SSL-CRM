@@ -37,8 +37,8 @@ class rho_2_layer(nn.Module):
         self.layer_0 = nn.Linear(model_input_size, layer_output_size, bias=False)
         self.layer_prev = nn.Linear(layer_input_size, layer_output_size, bias=False)
         self.activation = nn.ReLU()
-        self.neuron_mask_0 = neuron_mask_0
-        self.neuron_mask_prev = neuron_mask_prev
+        self.neuron_mask_0 = neuron_mask_0.to(next(self.layer_prev.parameters()).device)
+        self.neuron_mask_prev = neuron_mask_prev.to(next(self.layer_prev.parameters()).device)
         # print(f"\nneuron_mask_0: {neuron_mask_prev.shape, neuron_mask_prev.sum()}")
         # print(f"neuron_mask_prev: {neuron_mask_prev.shape, neuron_mask_prev.sum()}")
         self.bias = 0
@@ -68,7 +68,7 @@ class rho_1_layer(nn.Module):
         self.layer_id = rho_1_layer.num_layers
         self.layer_prev = nn.Linear(layer_input_size, layer_output_size, bias=False)
         self.activation = nn.ReLU()
-        self.neuron_mask_prev = neuron_mask_prev
+        self.neuron_mask_prev = neuron_mask_prev.to(next(self.layer_prev.parameters()).device)
         # print(f"\nneuron_mask_prev: {neuron_mask_prev.shape, neuron_mask_prev.sum()}")
         self.bias = 0
         if bias == True:
@@ -236,6 +236,7 @@ class Decoder_fullyconnected(nn.Module):
         super().__init__()
         # print(f"n.layers_list: {[len(layer) for layer in n.layers_list]}")
         self.layers = [nn.Linear(len(n.layers_list[i]), len(n.layers_list[i-1]), bias = bias) for i in range(len(n.layers_list)-1, 0, -1)]
+        self.myparameters = nn.ParameterList(self.layers)   
         # print(f"layers: {self.layers}")
         # for i in range(n.num_layers - 1):
         #     if i == 0:

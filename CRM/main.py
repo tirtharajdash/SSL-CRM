@@ -140,6 +140,7 @@ def main():
         y_val=y_val,
         save_here=args.output + "_model",
         verbose=args.verbose,
+        device=device,
     )
     
     #define plot_losses function

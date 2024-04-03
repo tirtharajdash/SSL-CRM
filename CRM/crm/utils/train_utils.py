@@ -27,6 +27,8 @@ def train(
     batch_size: int = 32,
     verbose: bool = False,
     save_atepoch: int = 20,
+    device = torch.device("cpu"),
+
 ):
     # train_losses = []
     # val_losses = []
@@ -69,8 +71,8 @@ def train(
             end_idx = (i + 1) * batch_size
             batch_X = [[sample[i] for i in range(len(sample))] for sample in X_train[start_idx:end_idx]] # change to sample.values() <------
             batch_y = y_train[start_idx:end_idx]
-            batch_X = torch.tensor(batch_X, dtype=torch.float32)
-            batch_y = torch.tensor(batch_y, dtype=torch.long)
+            batch_X = torch.tensor(batch_X, dtype=torch.float32).to(device)
+            batch_y = torch.tensor(batch_y, dtype=torch.long).to(device)
             input_layerwise = ([torch.stack([batch_X[:, neuron] for neuron in neurons], dim = -1) for neurons in n.layers_list]) #input for new implementation
             #print(f"input_layerwise 0: {input_layerwise[0].shape}")
             #quit()
@@ -160,6 +162,7 @@ def train_autoencoder(
     batch_size: int = 32,
     verbose: bool = False,
     save_atepoch: int = 20,
+    device = torch.device("cpu"),
     
 ):
     train_losses = []
@@ -178,7 +181,7 @@ def train_autoencoder(
             end_idx = (i + 1) * batch_size
             batch_X = [[sample[i] for i in range(len(sample))] for sample in X_train[start_idx:end_idx]] # change to sample.values() <------
             #batch_y = y_train[start_idx:end_idx]
-            batch_X = torch.tensor(batch_X, dtype=torch.float32)
+            batch_X = torch.tensor(batch_X, dtype=torch.float32).to(device)
             
             #batch_y = torch.tensor(batch_y, dtype=torch.float32)
             input_layerwise = ([torch.stack([batch_X[:, neuron] for neuron in neurons], dim = -1) for neurons in n.layers_list]) #input for new implementation

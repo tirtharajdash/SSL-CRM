@@ -37,8 +37,8 @@ class rho_2_layer(nn.Module):
         self.layer_0 = nn.Linear(model_input_size, layer_output_size, bias=False)
         self.layer_prev = nn.Linear(layer_input_size, layer_output_size, bias=False)
         self.activation = nn.ReLU()
-        self.neuron_mask_0 = neuron_mask_0.to(next(self.layer_prev.parameters()).device)
-        self.neuron_mask_prev = neuron_mask_prev.to(next(self.layer_prev.parameters()).device)
+        self.neuron_mask_0 = neuron_mask_0
+        self.neuron_mask_prev = neuron_mask_prev
         # print(f"\nneuron_mask_0: {neuron_mask_prev.shape, neuron_mask_prev.sum()}")
         # print(f"neuron_mask_prev: {neuron_mask_prev.shape, neuron_mask_prev.sum()}")
         self.bias = 0
@@ -68,7 +68,7 @@ class rho_1_layer(nn.Module):
         self.layer_id = rho_1_layer.num_layers
         self.layer_prev = nn.Linear(layer_input_size, layer_output_size, bias=False)
         self.activation = nn.ReLU()
-        self.neuron_mask_prev = neuron_mask_prev.to(next(self.layer_prev.parameters()).device)
+        self.neuron_mask_prev = neuron_mask_prev
         # print(f"\nneuron_mask_prev: {neuron_mask_prev.shape, neuron_mask_prev.sum()}")
         self.bias = 0
         if bias == True:
@@ -85,7 +85,7 @@ class rho_1_layer(nn.Module):
     
 class CRM_model(nn.Module):
     def __init__(self, num_neurons, adj_list, include_top = True,
-                 ajd_matrix = True, output_layer = False, bias = False):
+                 ajd_matrix = True, output_layer = False, bias = False, device = torch.device("cpu")):
         super(CRM_model, self).__init__()
         self.num_neurons = num_neurons
         self.bias = bias
@@ -104,7 +104,7 @@ class CRM_model(nn.Module):
         self.input_size = len(self.layers_list[0])
         self.output_size = len(self.layers_list[-1])
     
-        
+        self.device = device
         self.layers = self._setup_layers()
         if not include_top:
             self.layers.pop(-1)
@@ -189,7 +189,7 @@ class CRM_model(nn.Module):
                 for j in range(len(layer_out)):
                     if layer_out[j] in self.adj_list[layer_in[i]]:
                         sub_mask[i][j] = 1
-            return sub_mask.T
+            return sub_mask.T.to(self.device)
     
         
     def _set_neuron_masks(self):

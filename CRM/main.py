@@ -94,7 +94,7 @@ def main():
     
     # Create CRM structure and train with input data
     print("***Creating CRM structure***")
-    n = CRM_model(len(adj_list), adj_list, include_top=False)
+    n = CRM_model(len(adj_list), adj_list, include_top=False, device=device)
     n.to(device)
 
     # print(f"layers: {n.layers}")

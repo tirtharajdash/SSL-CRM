@@ -97,7 +97,7 @@ class CRM_model(nn.Module):
         #print(f"layerwise distribution:\n{[len(layer) for layer in self.layers_list]}\n")
         #print(f"num neurons (sum, real):\n{sum([len(layer) for layer in self.layers_list]), num_neurons}\n")
         #self.layers_list = layers_list
-        if self.adj_matrix:
+        if self.adj_matrix is not None:
             self.d_rho2, self.d_rho1 = self._get_rho_vals()
         else:
             self.d_rho2, self.d_rho1 = 1, 0
@@ -178,7 +178,7 @@ class CRM_model(nn.Module):
         return d_rho1, d_rho_2
     
     def _get_submask(self, layer_in, layer_out):
-        if self.adj_matrix:
+        if self.adj_matrix is not None:
             return self.adj_matrix[self.layers_list[layer_in]][:, self.layers_list[layer_out]].T
     
         else:

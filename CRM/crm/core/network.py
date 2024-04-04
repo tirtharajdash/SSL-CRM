@@ -179,7 +179,7 @@ class CRM_model(nn.Module):
     
     def _get_submask(self, layer_in, layer_out):
         if self.adj_matrix is not None:
-            return self.adj_matrix[self.layers_list[layer_in]][:, self.layers_list[layer_out]].T
+            return self.adj_matrix[self.layers_list[layer_in]][:, self.layers_list[layer_out]].T.to(self.device)
     
         else:
             layer_in = self.layers_list[layer_in]

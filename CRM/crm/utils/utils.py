@@ -20,7 +20,7 @@ def get_metrics(n, X_test, y_test, output_dict=False):
     y_pred = []
     for inp in X_test:
         # print(inp)
-        inp = [torch.tensor([inp[neuron] for neuron in neurons], dtype = torch.float32) for neurons in n.layers_list] #for new implementation
+        inp = [torch.tensor([inp[neuron] for neuron in neurons], dtype = torch.float32).to(next(n.parameters()).device) for neurons in n.layers_list] #for new implementation
         out = n.forward(inp)
         # if inp == X_test[0]:
         #     print(f"out: {out.shape}")
@@ -42,7 +42,7 @@ def get_metrics(n, X_test, y_test, output_dict=False):
 def get_autoencoder_metrics(n, n_decoder, X_test, output_dict=False):
     with torch.no_grad():
         batch_X = [[sample[i] for i in range(len(sample))] for sample in X_test] # change to sample.values() <------
-        batch_X = torch.tensor(batch_X, dtype=torch.float32)
+        batch_X = torch.tensor(batch_X, dtype=torch.float32).to(next(n.parameters()).device)
         input_layerwise = ([torch.stack([batch_X[:, neuron] for neuron in neurons], dim = -1) for neurons in n.layers_list]) #input for new implementation
         out_encoder = n.forward(input_layerwise).reshape(batch_X.shape[0], -1)
         out = n_decoder.forward(out_encoder) > 0.5

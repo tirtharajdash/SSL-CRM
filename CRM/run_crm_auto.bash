@@ -28,7 +28,7 @@ do
     ln -s $datadir/crm_r1/2_0_0.5_10/$fileprefix\_test_features_pos test_pos
     ln -s $datadir/crm_r1/2_0_0.5_10/$fileprefix\_test_features_neg test_neg
 
-    python3 main.py -f ./repeat-config  -o ./demo_auto -n 10
+    python3 main.py -f ./repeat-config  -o ./demo_auto -n 10 -g
 
     #wc -l crm_structure.pl train_pos train_neg test_pos test_neg
     rm crm_structure.pl train_pos train_neg test_pos test_neg

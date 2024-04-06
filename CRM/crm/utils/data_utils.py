@@ -159,8 +159,7 @@ def make_dataset_cli(
     for u, v in edges:
         adj_list[u].append(v)
 
-    n = Network(num_neurons, adj_list)
-    orig_output_neurons = n.output_neurons
+    orig_output_neurons = [neuron for neuron in range(num_neurons) if len(adj_list[neuron]) == 0]
     adj_list.append([])
     adj_list.append([])
     num_neurons = len(adj_list)

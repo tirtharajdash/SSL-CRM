@@ -110,10 +110,10 @@ def train(
                 local_val_losses = []
                 for j in range(len(X_val)):
                     f_mapper = X_val[j]
-                    input_layerwise = ([torch.tensor([f_mapper[neuron] for neuron in neurons], dtype = torch.float32) for neurons in n.layers_list]) #input for new implementation
+                    input_layerwise = ([torch.tensor([f_mapper[neuron] for neuron in neurons], dtype = torch.float32).to(device) for neurons in n.layers_list]) #input for new implementation
                     out = n.forward(input_layerwise).reshape(1, -1)
-                    #loss = criterion(out, y_val[j].reshape(1))
-                    loss = criterion(out, y_val[j].reshape(1))
+                    target = torch.tensor([y_val[j]], dtype = torch.long).to(device).reshape(1)
+                    loss = criterion(out, target)
                     local_val_losses.append(loss.item())
                     #n.reset()
                 val_losses.append(sum(local_val_losses) / len(local_val_losses))
@@ -205,11 +205,11 @@ def train_autoencoder(
                 local_val_losses = []
                 for j in range(len(X_val)):
                     f_mapper = X_val[j]
-                    input_layerwise = ([torch.tensor([f_mapper[neuron] for neuron in neurons], dtype = torch.float32) for neurons in n.layers_list]) #input for new implementation
+                    input_layerwise = ([torch.tensor([f_mapper[neuron] for neuron in neurons], dtype = torch.float32).to(device) for neurons in n.layers_list]) #input for new implementation
 
                     out_encoder = n.forward(input_layerwise).reshape(1, -1)
                     out = n_decoder.forward(out_encoder)
-                    target = torch.tensor([X_train[i][j] for j in range(len(n.layers_list[0]))], dtype = torch.float32).reshape(1, -1)
+                    target = torch.tensor([X_train[i][j] for j in range(len(n.layers_list[0]))], dtype = torch.float32).to(device).reshape(1, -1)
                     loss = criterion(out, target)
                     local_val_losses.append(loss.item())
                 val_losses.append(sum(local_val_losses) / len(local_val_losses))

@@ -56,7 +56,7 @@ def get_autoencoder_metrics(n, n_decoder, X_test, output_dict=False):
         #     digits=4,
         #     output_dict=output_dict,
         #     zero_division=1,))
-        return sum(accuracy)/len(accuracy)
+        return (sum(accuracy)/len(accuracy)).cpu()
 
 
 def get_predictions(n, X_test, y_test):

@@ -160,13 +160,14 @@ def make_dataset_cli(
         adj_list[u].append(v)
 
     orig_output_neurons = [neuron for neuron in range(num_neurons) if len(adj_list[neuron]) == 0]
+    print(f"Number of output neurons: {len(orig_output_neurons)}")
     adj_list.append([])
     adj_list.append([])
     num_neurons = len(adj_list)
-    for i in range(num_neurons):
-        if i in orig_output_neurons:
-            adj_list[i].append(num_neurons - 2)
-            adj_list[i].append(num_neurons - 1)
+    #for i in range(num_neurons):
+    for i in orig_output_neurons:
+        adj_list[i].append(num_neurons - 2)
+        adj_list[i].append(num_neurons - 1)
 
     # # TODO: Verifyyyyy
     # print("Connecting all the input neurons to output also!!!!!!!!!!!!!!!!!!!!!!!!!")
@@ -177,14 +178,14 @@ def make_dataset_cli(
     #         adj_list[i].append(num_neurons - 2)
     #         adj_list[i].append(num_neurons - 1)
 
-    for i in range(len(X_train)):
-        X_train[i][num_neurons - 2] = 1
-        X_train[i][num_neurons - 1] = 1
+    # for i in range(len(X_train)):
+    #     X_train[i][num_neurons - 2] = 1
+    #     X_train[i][num_neurons - 1] = 1
 
-    for X_test, y_test in test_dataset:
-        for i in range(len(X_test)):
-            X_test[i][num_neurons - 2] = 1
-            X_test[i][num_neurons - 1] = 1
+    # for X_test, y_test in test_dataset:
+    #     for i in range(len(X_test)):
+    #         X_test[i][num_neurons - 2] = 1
+    #         X_test[i][num_neurons - 1] = 1
 
 
     # for i in range(len(X_train)):

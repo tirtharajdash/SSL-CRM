@@ -84,43 +84,46 @@ class rho_1_layer(nn.Module):
         return activation_out
     
 class CRM_model(nn.Module):
-    def __init__(self, num_neurons, adj_list, include_top = True,
-                 ajd_matrix = True, output_layer = False, bias = False, device = torch.device("cpu")):
+    def __init__(self, num_neurons, adj_list, output_layer = False, 
+                 bias = False, device = torch.device("cpu")):
         super(CRM_model, self).__init__()
         self.num_neurons = num_neurons
         self.bias = bias
         self.adj_list = adj_list
-        self.adj_matrix = None
-        if ajd_matrix:
-            self.adj_matrix = self._get_adjacency_matrix()
-        self.layers_list = self._get_layers_list()
-        #print(f"layerwise distribution:\n{[len(layer) for layer in self.layers_list]}\n")
-        #print(f"num neurons (sum, real):\n{sum([len(layer) for layer in self.layers_list]), num_neurons}\n")
-        #self.layers_list = layers_list
-        if self.adj_matrix is not None:
-            self.d_rho2, self.d_rho1 = self._get_rho_vals()
-        else:
-            self.d_rho2, self.d_rho1 = 1, 0
+        
+        n1 = Network(len(adj_list), adj_list)
+        self.layers_list = [n1.layerwise_neurons[layer] for layer in n1.layerwise_neurons]
+        del n1
+        #self.layers_list = self._get_layers_list() # Gets the layers list using an algorthm <----------------------
+        
+        # print(f"layerwise distribution:\n{[len(layer) for layer in self.layers_list]}\n")
+        # print(f"num neurons (sum, real):\n{sum([len(layer) for layer in self.layers_list]), num_neurons}\n")
+        self.d_rho2, self.d_rho1 = self._get_rho_vals()
+        self.d_rho2, self.d_rho1 = 0, 1
+        
+        self.layers_list.pop(-1)
+        self.num_neurons -= 2
+        self.adj_list.pop(num_neurons-1)
+        self.adj_list.pop(num_neurons-2)
+        
         self.input_size = len(self.layers_list[0])
         self.output_size = len(self.layers_list[-1])
     
         self.device = device
         self.layers = self._setup_layers()
-        if not include_top:
-            self.layers.pop(-1)
-            self.layers_list.pop(-1)
         if output_layer:
             self.layers.append(nn.Linear(self.layers[-1].out_features, 2, bias=self.bias))
+            self.output_size = 2
         #self.layers[-1].activation = nn.Sigmoid()
         self.myparameters = nn.ParameterList(self.layers)   
         
-        # print(f"layers:\n{self.layers}\n")
-        # print(f"layerwise distribution:\n{[len(layer) for layer in self.layers_list]}\n")
-        # print(f"num neurons (real - layerwise):\n{sum([len(layer) for layer in self.layers_list])}\n")
-        # print(f"num neurons (real - adj_list):\n{len(self.adj_list)}\n")
-        # print(f"num neurons (args):\n{self.num_neurons}\n")
-        # print(f"d_rho2, d_rho1:\n{self.d_rho2, self.d_rho1}\n")
-        # quit() 
+        #print(f"layers:\n{self.layers}\n")
+        print(f"layerwise distribution:\n{[len(layer) for layer in self.layers_list]}\n")
+        print(f"num of output neurons:\n{len([neuron for neuron in range(self.num_neurons) if self.adj_list[neuron] == []])}\n")
+        print(f"num neurons (real - layerwise):\n{sum([len(layer) for layer in self.layers_list])}\n")
+        print(f"num neurons (real - adj_list):\n{len(self.adj_list)}\n")
+        print(f"num neurons (args):\n{self.num_neurons}\n")
+        print(f"d_rho2, d_rho1:\n{self.d_rho2, self.d_rho1}\n")
         
     def forward(self, input_layerwise):
         x = input_layerwise[0]
@@ -167,42 +170,41 @@ class CRM_model(nn.Module):
         return adj_matrix
     
     def _get_rho_vals(self):
-        d_rho1, d_rho_2 = 0, 0
-        for layer in self.layers_list[1:-1]:
-            if sum(self.adj_matrix[:, layer[0]]) == 1:
-                d_rho1 += 1
-            elif sum(self.adj_matrix[:, layer[0]]) == 2:
-                d_rho_2 += 1
+        d_1, d_2 = 0, 0
+        for i, layer in enumerate(self.layers_list[1:-1]):
+            if i == 0:
+                if sum([layer[0] in self.adj_list[neuron] for neuron in self.layers_list[0]]) == 1:
+                    d_1 += 1
+                elif sum([layer[0] in self.adj_list[neuron] for neuron in self.layers_list[0]]) == 2:
+                    d_2 += 1
+                else:
+                    raise Exception("Invalid layer")
+                        
             else:
-                raise Exception("Invalid layer")
-        return d_rho1, d_rho_2
+                if sum([layer[0] in self.adj_list[neuron] for neuron in self.layers_list[0]]) == 0:
+                    d_1 += 1
+                elif sum([layer[0] in self.adj_list[neuron] for neuron in self.layers_list[0]]) == 1:
+                    d_2 += 1
+                else:
+                    raise Exception("Invalid layer")
+        
+        return d_1, d_2
     
     def _get_submask(self, layer_in, layer_out):
-        if self.adj_matrix is not None:
-            return self.adj_matrix[self.layers_list[layer_in]][:, self.layers_list[layer_out]].T.to(self.device)
-    
-        else:
-            layer_in = self.layers_list[layer_in]
-            layer_out = self.layers_list[layer_out]
-            sub_mask = torch.zeros(len(layer_in), len(layer_out))
-            for i in range(len(layer_in)):
-                for j in range(len(layer_out)):
-                    if layer_out[j] in self.adj_list[layer_in[i]]:
-                        sub_mask[i][j] = 1
-            return sub_mask.T.to(self.device)
-    
-        
-    def _set_neuron_masks(self):
-        # Create neuron masks for each layer based on the adjacency matrix
-        neuron_masks = []
-        for i in range(self.num_neurons):
-            neuron_masks.append(self.adj_matrix[i])
-        return neuron_masks
+        # Creates a submask for the layer
+        layer_in = self.layers_list[layer_in]
+        layer_out = self.layers_list[layer_out]
+        sub_mask = torch.zeros(len(layer_in), len(layer_out))
+        for i in range(len(layer_in)):
+            for j in range(len(layer_out)):
+                if layer_out[j] in self.adj_list[layer_in[i]]:
+                    sub_mask[i][j] = 1
+        return sub_mask.T.to(self.device)
     
     def _setup_layers(self):
         # Creates a list of all layers
         layers = []
-        for i in range(self.d_rho2 + self.d_rho1 + 1):
+        for i in range(self.d_rho2 + self.d_rho1):
             if i == 0:
                 layers.append(rho_1_layer(len(self.layers_list[i]),
                                           len(self.layers_list[i+1]), 
@@ -421,6 +423,11 @@ class Network:
         for n in self.neurons:
             if len(n.successor_neurons) == 0:
                 self.output_neurons.append(n.n_id)
+        
+        self.input_neurons = []
+        for n in self.neurons:
+            if len(n.predecessor_neurons) == 0:
+                self.input_neurons.append(n.n_id)
                 
     def _set_layerwise_neurons(self):
         self.layerwise_neurons = {i:[] for i in range(self.num_layers)}

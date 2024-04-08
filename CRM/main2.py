@@ -100,7 +100,7 @@ def main():
     # Create CRM structure and train with input data
     print("***Creating CRM structure*** ")
     #n = Network(len(adj_list), adj_list)
-    n = CRM_model(len(adj_list), adj_list, ajd_matrix=False, output_layer=True, device=device)
+    n = CRM_model(len(adj_list), adj_list, output_layer=True, device=device)
     n.to(device)
     # print(f"Model initialized params:")
     # for name, param in n.named_parameters():
